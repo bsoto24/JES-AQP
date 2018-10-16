@@ -1,0 +1,70 @@
+.container-social-item{
+
+    height: 446px;
+    margin: 10px;
+
+}
+
+.header-social-item{
+
+    text-align: center;
+    background-color: #0091EA;
+    color: white;
+    padding: 10px;
+
+}
+
+.section-white {
+
+    padding: 40px;
+    background-color: white;
+
+}
+
+.section-light-gray {
+
+    padding: 40px;
+    background-color: rgb(241, 238, 238);
+
+}
+
+.section-dark-gray {
+
+    padding: 40px;
+    background-color: rgb(66, 65, 65);
+    color: white;
+
+}
+
+.image-gallery{
+
+    width: 300px;
+    height: auto;
+
+}
+
+.container-escenario-item{
+
+    margin-bottom: 20px;
+
+}
+
+.escenario-item-detail {
+
+    padding: 10px;
+
+}
+
+.header-foto-item{
+
+    padding: 10px;
+    background-color: rgb(66, 65, 65);
+    color: white;
+
+}
+
+.header-delegacion-item{
+
+    padding: 10px;
+
+}

@@ -1,11 +1,11 @@
-.container-social-item{
+.container-social-item {
 
     height: 446px;
     margin: 10px;
 
 }
 
-.header-social-item{
+.header-social-item {
 
     text-align: center;
     background-color: #0091EA;
@@ -36,14 +36,14 @@
 
 }
 
-.image-gallery{
+.image-gallery {
 
     width: 300px;
     height: auto;
 
 }
 
-.container-escenario-item{
+.container-escenario-item {
 
     margin-bottom: 20px;
 
@@ -55,7 +55,7 @@
 
 }
 
-.header-foto-item{
+.header-foto-item {
 
     padding: 10px;
     background-color: rgb(66, 65, 65);
@@ -63,8 +63,36 @@
 
 }
 
-.header-delegacion-item{
+.header-delegacion-item {
 
     padding: 10px;
+
+}
+
+.login-container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: url('../images/cocha.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.login-detail {
+
+    background-color: white;
+    margin-top: 20px;
+    padding: 30px;
+    margin-bottom: 10px;
+
+}
+
+.container-menu-item{
+
+    margin-bottom: 20px;
+    padding: 20px;
+    text-decoration: none;
+    color: black;
 
 }

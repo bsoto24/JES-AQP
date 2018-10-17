@@ -96,3 +96,17 @@
     color: black;
 
 }
+
+
+.footer{
+    background-color: #FEFEFE;
+}
+
+.header-modal{
+
+    text-align: center;
+    background-color: #0091EA;
+    color: white;
+    padding: 20px;    
+
+}

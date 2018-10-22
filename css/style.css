@@ -2,6 +2,10 @@ body{
     font-family: Montserrat, sans-serif;
 }
 
+header {
+    opacity: 0.9;
+}
+
 .nav-link{
     font-size: 1.0em;
 }
@@ -28,14 +32,14 @@ body{
 
 .section-white {
 
-    padding: 40px;
+    padding: 20px;
     background-color: white;
 
 }
 
 .section-light-gray {
 
-    padding: 40px;
+    padding: 20px;
     background-color: rgb(241, 238, 238);
 
 }
@@ -66,6 +70,9 @@ body{
 
 .container-escenario-item {
 
+    position: relative; 
+    max-width: 800px; /* Maximum width */
+    margin: 0 auto; /* Center it */
     margin-bottom: 20px;
 
 }
@@ -96,7 +103,7 @@ body{
 .login-container {
     padding-top: 60px;
     padding-bottom: 60px;
-    background: url('../images/cocha.jpg') no-repeat center center fixed;
+    background: url('../images/fondo3.png') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -171,3 +178,31 @@ body{
     background: rgb(238, 85, 85);
     color: white;
 }
+
+
+.portada-container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: url('../images/fondo3.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+.multimedia-container {
+    position: relative; 
+    max-width: 800px; /* Maximum width */
+    margin: 0 auto; /* Center it */
+  }
+  
+  .container-escenario-item .img-container {
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 100%;
+    padding: 10px; /* Some padding */
+  }

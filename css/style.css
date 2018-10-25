@@ -34,21 +34,30 @@ img {
 
 .section-white {
 
-    padding: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
     background-color: white;
 
 }
 
 .section-light-gray {
 
-    padding: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
     background-color: rgb(241, 238, 238);
 
 }
 
 .section-dark-gray {
 
-    padding: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
     background-color: rgb(66, 65, 65);
     color: white;
 
@@ -116,7 +125,7 @@ img {
     background-size: cover;
 }
 
-.login-container{
+.login-container {
     position: absolute;
     left: 0;
     top: 30%;
@@ -256,25 +265,31 @@ img {
     display: flex;
     width: 100%;
     margin-bottom: 15px;
-  }
-  
-  /* Style the form icons */
-  .icon {
+}
+
+/* Style the form icons */
+.icon {
     padding: 10px;
     background: gray;
     color: white;
     min-width: 50px;
     text-align: center;
-  }
-  
-  /* Style the input fields */
-  .input-field {
+}
+
+/* Style the input fields */
+.input-field {
     width: 100%;
     padding: 10px;
     outline: none;
-  }
+}
 
 .container-margin {
     margin-top: 50px;
     margin-bottom: 50px;
+}
+
+.section-title{
+
+    margin-top: 50px;
+
 }

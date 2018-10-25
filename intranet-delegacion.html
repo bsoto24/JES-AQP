@@ -52,1192 +52,1267 @@
 
     <div style="margin-top: 60px; margin-bottom:60px;">
 
-    <section class="section-white">
+        <div class="section-title">
 
-        <div class="row">
+            <div class="col-10 col-xs-10 col-sm-8 col-md-4 col-lg-2 container">
 
-            <div class="col-xs-8 col-sm-8 col-md-2 col-lg-2 container">
+                <div class="container-escenario-item container">
 
-                <img src="images/brasil.png" class="img-fluid card">
+                    <img src="images/flag_argentina.png" class="img-fluid zoom card">
 
-                <h1 class="text-center">Brasil</h1>
+                    <div class="header-delegacion-item">
+
+                        <h5 class="card-title text-center">Argentina</h5>
+
+                    </div>
+
+                </div>
 
             </div>
 
         </div>
 
-    </section>
+        <section class="section-white">
 
-    <section class="section-white">
+            <div class="container">
 
-        <div class="container">
+                <div id="accordion">
 
-            <div id="accordion">
+                    <h4>Miembros no deportivos</h4>
 
-                <h4>Miembros no deportivos</h4>
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h5 class="mb-0">
+                                <button class="btn btn-lg btn-block btn-light" data-toggle="collapse" data-target="#collapseOne"
+                                    aria-expanded="false" aria-controls="collapseOne">
+                                    Delegacion
+                                </button>
+                            </h5>
+                        </div>
 
-                <div class="card">
-                    <div class="card-header" id="headingOne">
-                        <h5 class="mb-0">
-                            <button class="btn btn-lg btn-block btn-light" data-toggle="collapse" data-target="#collapseOne"
-                                aria-expanded="false" aria-controls="collapseOne">
-                                Delegacion
-                            </button>
-                        </h5>
-                    </div>
+                        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
 
-                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                            <div class="card-body">
 
-                        <div class="card-body">
+                                <div class="panel panel-default" style="overflow-x:auto; overflow-y:scroll; height:50vh; ">
 
-                            <div class="panel panel-default" style="overflow-x:auto; overflow-y:scroll; height:50vh; ">
+                                    <table class="table" style="width: 100%;">
+                                        <thead class="container-header" class="text-center">
+                                            <tr>
+                                                <th class="text-center" style="font-size:14px">Código</th>
+                                                <th class="text-center" style="font-size:14px">Tipo Documento</th>
+                                                <th class="text-center" style="font-size:14px">Numero Documento</th>
+                                                <th class="text-center" style="font-size:14px">Nombres</th>
+                                                <th class="text-center" style="font-size:14px">Apellidos</th>
+                                                <th class="text-center" style="font-size:14px">Sexo</th>
+                                                <th class="text-center" style="font-size:14px">Correo</th>
+                                                <th class="text-center" style="font-size:14px">Estado</th>
+                                                <th class="text-center" style="font-size:14px">Tipo</th>
+                                                <th></th>
+                                                <th></th>
+                                            </tr>
 
-                                <table class="table" style="width: 100%;">
-                                    <thead class="container-header" class="text-center">
-                                        <tr>
-                                            <th class="text-center" style="font-size:14px">Código</th>
-                                            <th class="text-center" style="font-size:14px">Tipo Documento</th>
-                                            <th class="text-center" style="font-size:14px">Numero Documento</th>
-                                            <th class="text-center" style="font-size:14px">Nombres</th>
-                                            <th class="text-center" style="font-size:14px">Apellidos</th>
-                                            <th class="text-center" style="font-size:14px">Sexo</th>
-                                            <th class="text-center" style="font-size:14px">Correo</th>
-                                            <th class="text-center" style="font-size:14px">Estado</th>
-                                            <th class="text-center" style="font-size:14px">Tipo</th>
-                                            <th></th>
-                                            <th></th>
-                                        </tr>
+                                        </thead>
 
-                                    </thead>
+                                        <tbody id="1{{complejosDisciplina['idDisciplina']}}" class="buscar">
+                                            <tr>
+                                                <td id="1h{{horario['idHorario']}}" class="text-center">123</td>
+                                                <td id="2h{{horario['idHorario']}}" class="text-center">DNI</td>
+                                                <td id="3h{{horario['idHorario']}}" class="text-center">70002229</td>
+                                                <td id="4h{{horario['idHorario']}}" class="text-center">Bryam Angel</td>
+                                                <td id="5h{{horario['idHorario']}}" class="text-center">Soto Nahui</td>
+                                                <td id="6h{{horario['idHorario']}}" class="text-center">Masculino</td>
+                                                <td id="7h{{horario['idHorario']}}" class="text-center">bsoto.dev@gmail.com</td>
+                                                <td id="8h{{horario['idHorario']}}" class="text-center">
+                                                    <p style="color:rgb(226, 185, 49)">Por revisar</p>
+                                                </td>
+                                                <td id="9h{{horario['idHorario']}}" class="text-center">Deportista</td>
+                                                <td><button title="Editar" type="button" class="btn btn-info btn-xs"
+                                                        data-toggle="modal" data-target="#modal-nuevo-integrante"><i
+                                                            class="material-icons">
+                                                            edit
+                                                        </i></button></td>
+                                                <td><button title="Ver" type="button" class="btn btn-secondary btn-xs"
+                                                        data-toggle="modal" data-target="#modal-nuevo-integrante"><i
+                                                            class="material-icons">
+                                                            visibility
+                                                        </i></button></td>
+                                            </tr>
 
-                                    <tbody id="1{{complejosDisciplina['idDisciplina']}}" class="buscar">
-                                        <tr>
-                                            <td id="1h{{horario['idHorario']}}" class="text-center">123</td>
-                                            <td id="2h{{horario['idHorario']}}" class="text-center">DNI</td>
-                                            <td id="3h{{horario['idHorario']}}" class="text-center">70002229</td>
-                                            <td id="4h{{horario['idHorario']}}" class="text-center">Bryam Angel</td>
-                                            <td id="5h{{horario['idHorario']}}" class="text-center">Soto Nahui</td>
-                                            <td id="6h{{horario['idHorario']}}" class="text-center">Masculino</td>
-                                            <td id="7h{{horario['idHorario']}}" class="text-center">bsoto.dev@gmail.com</td>
-                                            <td id="8h{{horario['idHorario']}}" class="text-center">
-                                                <p style="color:rgb(226, 185, 49)">Por revisar</p>
-                                            </td>
-                                            <td id="9h{{horario['idHorario']}}" class="text-center">Deportista</td>
-                                            <td><button title="Editar" type="button" class="btn btn-info btn-xs"
-                                                    data-toggle="modal" data-target="#modal-nuevo-integrante"><i class="material-icons">
-                                                        edit
-                                                    </i></button></td>
-                                            <td><button title="Ver" type="button" class="btn btn-secondary btn-xs"
-                                                    data-toggle="modal" data-target="#modal-nuevo-integrante"><i class="material-icons">
-                                                        visibility
-                                                    </i></button></td>
-                                        </tr>
+                                            <tr>
+                                                <td id="1h{{horario['idHorario']}}" class="text-center">123</td>
+                                                <td id="2h{{horario['idHorario']}}" class="text-center">DNI</td>
+                                                <td id="3h{{horario['idHorario']}}" class="text-center">70002229</td>
+                                                <td id="4h{{horario['idHorario']}}" class="text-center">Bryam Angel</td>
+                                                <td id="5h{{horario['idHorario']}}" class="text-center">Soto Nahui</td>
+                                                <td id="6h{{horario['idHorario']}}" class="text-center">Masculino</td>
+                                                <td id="7h{{horario['idHorario']}}" class="text-center">bsoto.dev@gmail.com</td>
+                                                <td id="8h{{horario['idHorario']}}" class="text-center">
+                                                    <p style="color:rgb(226, 185, 49)">Por revisar</p>
+                                                </td>
+                                                <td id="9h{{horario['idHorario']}}" class="text-center">Deportista</td>
+                                                <td><button title="Editar" type="button" class="btn btn-info btn-xs"
+                                                        data-toggle="modal" data-target="#modal-nuevo-integrante"><i
+                                                            class="material-icons">
+                                                            edit
+                                                        </i></button></td>
+                                                <td><button title="Ver" type="button" class="btn btn-secondary btn-xs"
+                                                        data-toggle="modal" data-target="#modal-nuevo-integrante"><i
+                                                            class="material-icons">
+                                                            visibility
+                                                        </i></button></td>
+                                            </tr>
 
-                                        <tr>
-                                            <td id="1h{{horario['idHorario']}}" class="text-center">123</td>
-                                            <td id="2h{{horario['idHorario']}}" class="text-center">DNI</td>
-                                            <td id="3h{{horario['idHorario']}}" class="text-center">70002229</td>
-                                            <td id="4h{{horario['idHorario']}}" class="text-center">Bryam Angel</td>
-                                            <td id="5h{{horario['idHorario']}}" class="text-center">Soto Nahui</td>
-                                            <td id="6h{{horario['idHorario']}}" class="text-center">Masculino</td>
-                                            <td id="7h{{horario['idHorario']}}" class="text-center">bsoto.dev@gmail.com</td>
-                                            <td id="8h{{horario['idHorario']}}" class="text-center">
-                                                <p style="color:rgb(226, 185, 49)">Por revisar</p>
-                                            </td>
-                                            <td id="9h{{horario['idHorario']}}" class="text-center">Deportista</td>
-                                            <td><button title="Editar" type="button" class="btn btn-info btn-xs"
-                                                    data-toggle="modal" data-target="#modal-nuevo-integrante"><i class="material-icons">
-                                                        edit
-                                                    </i></button></td>
-                                            <td><button title="Ver" type="button" class="btn btn-secondary btn-xs"
-                                                    data-toggle="modal" data-target="#modal-nuevo-integrante"><i class="material-icons">
-                                                        visibility
-                                                    </i></button></td>
-                                        </tr>
+                                            <tr>
+                                                <td id="1h{{horario['idHorario']}}" class="text-center">123</td>
+                                                <td id="2h{{horario['idHorario']}}" class="text-center">DNI</td>
+                                                <td id="3h{{horario['idHorario']}}" class="text-center">70002229</td>
+                                                <td id="4h{{horario['idHorario']}}" class="text-center">Bryam Angel</td>
+                                                <td id="5h{{horario['idHorario']}}" class="text-center">Soto Nahui</td>
+                                                <td id="6h{{horario['idHorario']}}" class="text-center">Masculino</td>
+                                                <td id="7h{{horario['idHorario']}}" class="text-center">bsoto.dev@gmail.com</td>
+                                                <td id="8h{{horario['idHorario']}}" class="text-center">
+                                                    <p style="color:rgb(226, 185, 49)">Por revisar</p>
+                                                </td>
+                                                <td id="9h{{horario['idHorario']}}" class="text-center">Deportista</td>
+                                                <td><button title="Editar" type="button" class="btn btn-info btn-xs"
+                                                        data-toggle="modal" data-target="#modal-nuevo-integrante"><i
+                                                            class="material-icons">
+                                                            edit
+                                                        </i></button></td>
+                                                <td><button title="Ver" type="button" class="btn btn-secondary btn-xs"
+                                                        data-toggle="modal" data-target="#modal-nuevo-integrante"><i
+                                                            class="material-icons">
+                                                            visibility
+                                                        </i></button></td>
+                                            </tr>
 
-                                        <tr>
-                                            <td id="1h{{horario['idHorario']}}" class="text-center">123</td>
-                                            <td id="2h{{horario['idHorario']}}" class="text-center">DNI</td>
-                                            <td id="3h{{horario['idHorario']}}" class="text-center">70002229</td>
-                                            <td id="4h{{horario['idHorario']}}" class="text-center">Bryam Angel</td>
-                                            <td id="5h{{horario['idHorario']}}" class="text-center">Soto Nahui</td>
-                                            <td id="6h{{horario['idHorario']}}" class="text-center">Masculino</td>
-                                            <td id="7h{{horario['idHorario']}}" class="text-center">bsoto.dev@gmail.com</td>
-                                            <td id="8h{{horario['idHorario']}}" class="text-center">
-                                                <p style="color:rgb(226, 185, 49)">Por revisar</p>
-                                            </td>
-                                            <td id="9h{{horario['idHorario']}}" class="text-center">Deportista</td>
-                                            <td><button title="Editar" type="button" class="btn btn-info btn-xs"
-                                                    data-toggle="modal" data-target="#modal-nuevo-integrante"><i class="material-icons">
-                                                        edit
-                                                    </i></button></td>
-                                            <td><button title="Ver" type="button" class="btn btn-secondary btn-xs"
-                                                    data-toggle="modal" data-target="#modal-nuevo-integrante"><i class="material-icons">
-                                                        visibility
-                                                    </i></button></td>
-                                        </tr>
+                                            <tr>
+                                                <td id="1h{{horario['idHorario']}}" class="text-center">123</td>
+                                                <td id="2h{{horario['idHorario']}}" class="text-center">DNI</td>
+                                                <td id="3h{{horario['idHorario']}}" class="text-center">70002229</td>
+                                                <td id="4h{{horario['idHorario']}}" class="text-center">Bryam Angel</td>
+                                                <td id="5h{{horario['idHorario']}}" class="text-center">Soto Nahui</td>
+                                                <td id="6h{{horario['idHorario']}}" class="text-center">Masculino</td>
+                                                <td id="7h{{horario['idHorario']}}" class="text-center">bsoto.dev@gmail.com</td>
+                                                <td id="8h{{horario['idHorario']}}" class="text-center">
+                                                    <p style="color:rgb(226, 185, 49)">Por revisar</p>
+                                                </td>
+                                                <td id="9h{{horario['idHorario']}}" class="text-center">Deportista</td>
+                                                <td><button title="Editar" type="button" class="btn btn-info btn-xs"
+                                                        data-toggle="modal" data-target="#modal-nuevo-integrante"><i
+                                                            class="material-icons">
+                                                            edit
+                                                        </i></button></td>
+                                                <td><button title="Ver" type="button" class="btn btn-secondary btn-xs"
+                                                        data-toggle="modal" data-target="#modal-nuevo-integrante"><i
+                                                            class="material-icons">
+                                                            visibility
+                                                        </i></button></td>
+                                            </tr>
 
-                                        <tr>
-                                            <td id="1h{{horario['idHorario']}}" class="text-center">123</td>
-                                            <td id="2h{{horario['idHorario']}}" class="text-center">DNI</td>
-                                            <td id="3h{{horario['idHorario']}}" class="text-center">70002229</td>
-                                            <td id="4h{{horario['idHorario']}}" class="text-center">Bryam Angel</td>
-                                            <td id="5h{{horario['idHorario']}}" class="text-center">Soto Nahui</td>
-                                            <td id="6h{{horario['idHorario']}}" class="text-center">Masculino</td>
-                                            <td id="7h{{horario['idHorario']}}" class="text-center">bsoto.dev@gmail.com</td>
-                                            <td id="8h{{horario['idHorario']}}" class="text-center">
-                                                <p style="color:rgb(226, 185, 49)">Por revisar</p>
-                                            </td>
-                                            <td id="9h{{horario['idHorario']}}" class="text-center">Deportista</td>
-                                            <td><button title="Editar" type="button" class="btn btn-info btn-xs"
-                                                    data-toggle="modal" data-target="#modal-nuevo-integrante"><i class="material-icons">
-                                                        edit
-                                                    </i></button></td>
-                                            <td><button title="Ver" type="button" class="btn btn-secondary btn-xs"
-                                                    data-toggle="modal" data-target="#modal-nuevo-integrante"><i class="material-icons">
-                                                        visibility
-                                                    </i></button></td>
-                                        </tr>
+                                            <tr>
+                                                <td id="1h{{horario['idHorario']}}" class="text-center">123</td>
+                                                <td id="2h{{horario['idHorario']}}" class="text-center">DNI</td>
+                                                <td id="3h{{horario['idHorario']}}" class="text-center">70002229</td>
+                                                <td id="4h{{horario['idHorario']}}" class="text-center">Bryam Angel</td>
+                                                <td id="5h{{horario['idHorario']}}" class="text-center">Soto Nahui</td>
+                                                <td id="6h{{horario['idHorario']}}" class="text-center">Masculino</td>
+                                                <td id="7h{{horario['idHorario']}}" class="text-center">bsoto.dev@gmail.com</td>
+                                                <td id="8h{{horario['idHorario']}}" class="text-center">
+                                                    <p style="color:rgb(226, 185, 49)">Por revisar</p>
+                                                </td>
+                                                <td id="9h{{horario['idHorario']}}" class="text-center">Deportista</td>
+                                                <td><button title="Editar" type="button" class="btn btn-info btn-xs"
+                                                        data-toggle="modal" data-target="#modal-nuevo-integrante"><i
+                                                            class="material-icons">
+                                                            edit
+                                                        </i></button></td>
+                                                <td><button title="Ver" type="button" class="btn btn-secondary btn-xs"
+                                                        data-toggle="modal" data-target="#modal-nuevo-integrante"><i
+                                                            class="material-icons">
+                                                            visibility
+                                                        </i></button></td>
+                                            </tr>
+                                        </tbody>
 
-                                        <tr>
-                                            <td id="1h{{horario['idHorario']}}" class="text-center">123</td>
-                                            <td id="2h{{horario['idHorario']}}" class="text-center">DNI</td>
-                                            <td id="3h{{horario['idHorario']}}" class="text-center">70002229</td>
-                                            <td id="4h{{horario['idHorario']}}" class="text-center">Bryam Angel</td>
-                                            <td id="5h{{horario['idHorario']}}" class="text-center">Soto Nahui</td>
-                                            <td id="6h{{horario['idHorario']}}" class="text-center">Masculino</td>
-                                            <td id="7h{{horario['idHorario']}}" class="text-center">bsoto.dev@gmail.com</td>
-                                            <td id="8h{{horario['idHorario']}}" class="text-center">
-                                                <p style="color:rgb(226, 185, 49)">Por revisar</p>
-                                            </td>
-                                            <td id="9h{{horario['idHorario']}}" class="text-center">Deportista</td>
-                                            <td><button title="Editar" type="button" class="btn btn-info btn-xs"
-                                                    data-toggle="modal" data-target="#modal-nuevo-integrante"><i class="material-icons">
-                                                        edit
-                                                    </i></button></td>
-                                            <td><button title="Ver" type="button" class="btn btn-secondary btn-xs"
-                                                    data-toggle="modal" data-target="#modal-nuevo-integrante"><i class="material-icons">
-                                                        visibility
-                                                    </i></button></td>
-                                        </tr>
-                                    </tbody>
+                                    </table>
 
-                                </table>
+                                </div>
 
-                            </div>
+                                <br>
+                                <div class="dropdown-divider"></div>
+                                <br>
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-right">
+                                    <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal-nuevo-integrante">Nuevo
+                                        integrante</button>
+                                </div>
 
-                            <br>
-                            <div class="dropdown-divider"></div>
-                            <br>
-                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-right">
-                                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal-nuevo-integrante">Nuevo
-                                    integrante</button>
                             </div>
 
                         </div>
 
                     </div>
+
+                    <br>
+                    <br>
+                    <br>
+
+                    <h4>Miembros deportivos</h4>
+
+                    <div class="card">
+                        <div class="card-header" id="headingTwo">
+                            <h5 class="mb-0">
+                                <button class="btn btn-lg btn-block btn-light" data-toggle="collapse" data-target="#collapseTwo"
+                                    aria-expanded="false" aria-controls="collapseTwo">
+                                    Atletismo
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                            <div class="card-body">
+
+                                <div class="panel panel-default" style="overflow-x:auto; overflow-y:scroll; height:50vh; ">
+
+                                    <table class="table" style="width: 100%;">
+                                        <thead class="container-header" class="text-center">
+                                            <tr>
+                                                <th class="text-center" style="font-size:14px">Código</th>
+                                                <th class="text-center" style="font-size:14px">Tipo Documento</th>
+                                                <th class="text-center" style="font-size:14px">Numero Documento</th>
+                                                <th class="text-center" style="font-size:14px">Nombres</th>
+                                                <th class="text-center" style="font-size:14px">Apellidos</th>
+                                                <th class="text-center" style="font-size:14px">Sexo</th>
+                                                <th class="text-center" style="font-size:14px">Correo</th>
+                                                <th class="text-center" style="font-size:14px">Estado</th>
+                                                <th class="text-center" style="font-size:14px">Tipo</th>
+                                                <th></th>
+                                                <th></th>
+                                            </tr>
+
+                                        </thead>
+
+                                        <tbody id="1{{complejosDisciplina['idDisciplina']}}" class="buscar">
+
+                                            <tr>
+                                                <td id="1h{{horario['idHorario']}}" class="text-center">123</td>
+                                                <td id="2h{{horario['idHorario']}}" class="text-center">DNI</td>
+                                                <td id="3h{{horario['idHorario']}}" class="text-center">70002229</td>
+                                                <td id="4h{{horario['idHorario']}}" class="text-center">Bryam Angel</td>
+                                                <td id="5h{{horario['idHorario']}}" class="text-center">Soto Nahui</td>
+                                                <td id="6h{{horario['idHorario']}}" class="text-center">Masculino</td>
+                                                <td id="7h{{horario['idHorario']}}" class="text-center">bsoto.dev@gmail.com</td>
+                                                <td id="8h{{horario['idHorario']}}" class="text-center">
+                                                    <p style="color:rgb(226, 185, 49)">Por revisar</p>
+                                                </td>
+                                                <td id="9h{{horario['idHorario']}}" class="text-center">Deportista</td>
+                                                <td><button title="Editar" type="button" class="btn btn-info btn-xs"
+                                                        data-toggle="modal" data-target="#modal-nuevo-integrante"><i
+                                                            class="material-icons">
+                                                            edit
+                                                        </i></button></td>
+                                                <td><button title="Ver" type="button" class="btn btn-secondary btn-xs"
+                                                        data-toggle="modal" data-target="#modal-nuevo-integrante"><i
+                                                            class="material-icons">
+                                                            visibility
+                                                        </i></button></td>
+                                            </tr>
+
+                                            <tr>
+                                                <td id="1h{{horario['idHorario']}}" class="text-center">123</td>
+                                                <td id="2h{{horario['idHorario']}}" class="text-center">DNI</td>
+                                                <td id="3h{{horario['idHorario']}}" class="text-center">70002229</td>
+                                                <td id="4h{{horario['idHorario']}}" class="text-center">Bryam Angel</td>
+                                                <td id="5h{{horario['idHorario']}}" class="text-center">Soto Nahui</td>
+                                                <td id="6h{{horario['idHorario']}}" class="text-center">Masculino</td>
+                                                <td id="7h{{horario['idHorario']}}" class="text-center">bsoto.dev@gmail.com</td>
+                                                <td id="8h{{horario['idHorario']}}" class="text-center">
+                                                    <p style="color:rgb(226, 185, 49)">Por revisar</p>
+                                                </td>
+                                                <td id="9h{{horario['idHorario']}}" class="text-center">Deportista</td>
+                                                <td><button title="Editar" type="button" class="btn btn-info btn-xs"
+                                                        data-toggle="modal" data-target="#modal-nuevo-integrante"><i
+                                                            class="material-icons">
+                                                            edit
+                                                        </i></button></td>
+                                                <td><button title="Ver" type="button" class="btn btn-secondary btn-xs"
+                                                        data-toggle="modal" data-target="#modal-nuevo-integrante"><i
+                                                            class="material-icons">
+                                                            visibility
+                                                        </i></button></td>
+                                            </tr>
+
+                                            <tr>
+                                                <td id="1h{{horario['idHorario']}}" class="text-center">123</td>
+                                                <td id="2h{{horario['idHorario']}}" class="text-center">DNI</td>
+                                                <td id="3h{{horario['idHorario']}}" class="text-center">70002229</td>
+                                                <td id="4h{{horario['idHorario']}}" class="text-center">Bryam Angel</td>
+                                                <td id="5h{{horario['idHorario']}}" class="text-center">Soto Nahui</td>
+                                                <td id="6h{{horario['idHorario']}}" class="text-center">Masculino</td>
+                                                <td id="7h{{horario['idHorario']}}" class="text-center">bsoto.dev@gmail.com</td>
+                                                <td id="8h{{horario['idHorario']}}" class="text-center">
+                                                    <p style="color:rgb(226, 185, 49)">Por revisar</p>
+                                                </td>
+                                                <td id="9h{{horario['idHorario']}}" class="text-center">Deportista</td>
+                                                <td><button title="Editar" type="button" class="btn btn-info btn-xs"
+                                                        data-toggle="modal" data-target="#modal-nuevo-integrante"><i
+                                                            class="material-icons">
+                                                            edit
+                                                        </i></button></td>
+                                                <td><button title="Ver" type="button" class="btn btn-secondary btn-xs"
+                                                        data-toggle="modal" data-target="#modal-nuevo-integrante"><i
+                                                            class="material-icons">
+                                                            visibility
+                                                        </i></button></td>
+                                            </tr>
+
+                                            <tr>
+                                                <td id="1h{{horario['idHorario']}}" class="text-center">123</td>
+                                                <td id="2h{{horario['idHorario']}}" class="text-center">DNI</td>
+                                                <td id="3h{{horario['idHorario']}}" class="text-center">70002229</td>
+                                                <td id="4h{{horario['idHorario']}}" class="text-center">Bryam Angel</td>
+                                                <td id="5h{{horario['idHorario']}}" class="text-center">Soto Nahui</td>
+                                                <td id="6h{{horario['idHorario']}}" class="text-center">Masculino</td>
+                                                <td id="7h{{horario['idHorario']}}" class="text-center">bsoto.dev@gmail.com</td>
+                                                <td id="8h{{horario['idHorario']}}" class="text-center">
+                                                    <p style="color:rgb(226, 185, 49)">Por revisar</p>
+                                                </td>
+                                                <td id="9h{{horario['idHorario']}}" class="text-center">Deportista</td>
+                                                <td><button title="Editar" type="button" class="btn btn-info btn-xs"
+                                                        data-toggle="modal" data-target="#modal-nuevo-integrante"><i
+                                                            class="material-icons">
+                                                            edit
+                                                        </i></button></td>
+                                                <td><button title="Ver" type="button" class="btn btn-secondary btn-xs"
+                                                        data-toggle="modal" data-target="#modal-nuevo-integrante"><i
+                                                            class="material-icons">
+                                                            visibility
+                                                        </i></button></td>
+                                            </tr>
+
+                                            <tr>
+                                                <td id="1h{{horario['idHorario']}}" class="text-center">123</td>
+                                                <td id="2h{{horario['idHorario']}}" class="text-center">DNI</td>
+                                                <td id="3h{{horario['idHorario']}}" class="text-center">70002229</td>
+                                                <td id="4h{{horario['idHorario']}}" class="text-center">Bryam Angel</td>
+                                                <td id="5h{{horario['idHorario']}}" class="text-center">Soto Nahui</td>
+                                                <td id="6h{{horario['idHorario']}}" class="text-center">Masculino</td>
+                                                <td id="7h{{horario['idHorario']}}" class="text-center">bsoto.dev@gmail.com</td>
+                                                <td id="8h{{horario['idHorario']}}" class="text-center">
+                                                    <p style="color:rgb(226, 185, 49)">Por revisar</p>
+                                                </td>
+                                                <td id="9h{{horario['idHorario']}}" class="text-center">Deportista</td>
+                                                <td><button title="Editar" type="button" class="btn btn-info btn-xs"
+                                                        data-toggle="modal" data-target="#modal-nuevo-integrante"><i
+                                                            class="material-icons">
+                                                            edit
+                                                        </i></button></td>
+                                                <td><button title="Ver" type="button" class="btn btn-secondary btn-xs"
+                                                        data-toggle="modal" data-target="#modal-nuevo-integrante"><i
+                                                            class="material-icons">
+                                                            visibility
+                                                        </i></button></td>
+                                            </tr>
+
+                                        </tbody>
+
+                                    </table>
+
+                                </div>
+
+                                <br>
+                                <div class="dropdown-divider"></div>
+                                <br>
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-right">
+                                    <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal-nuevo-integrante">Nuevo
+                                        integrante</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header" id="headingThree">
+                            <h5 class="mb-0">
+                                <button class="btn btn-lg btn-block btn-light" data-toggle="collapse" data-target="#collapseThree"
+                                    aria-expanded="false" aria-controls="collapseThree">
+                                    Futbol
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                            <div class="card-body">
+
+                                <div class="panel panel-default" style="overflow-x:auto; overflow-y:scroll; height:50vh; ">
+
+                                    <table class="table table-hover table-striped" style="width: 100%;">
+                                        <thead class="container-header" class="text-center">
+                                            <tr>
+                                                <th class="text-center" style="font-size:14px">Código</th>
+                                                <th class="text-center" style="font-size:14px">Tipo Documento</th>
+                                                <th class="text-center" style="font-size:14px">Numero Documento</th>
+                                                <th class="text-center" style="font-size:14px">Nombres</th>
+                                                <th class="text-center" style="font-size:14px">Apellidos</th>
+                                                <th class="text-center" style="font-size:14px">Sexo</th>
+                                                <th class="text-center" style="font-size:14px">Correo</th>
+                                                <th class="text-center" style="font-size:14px">Estado</th>
+                                                <th class="text-center" style="font-size:14px">Tipo</th>
+                                                <th></th>
+                                                <th></th>
+                                            </tr>
+
+                                        </thead>
+
+                                        <tbody id="1{{complejosDisciplina['idDisciplina']}}" class="buscar">
+
+                                            <tr>
+                                                <td id="1h{{horario['idHorario']}}" class="text-center">123</td>
+                                                <td id="2h{{horario['idHorario']}}" class="text-center">DNI</td>
+                                                <td id="3h{{horario['idHorario']}}" class="text-center">70002229</td>
+                                                <td id="4h{{horario['idHorario']}}" class="text-center">Bryam Angel</td>
+                                                <td id="5h{{horario['idHorario']}}" class="text-center">Soto Nahui</td>
+                                                <td id="6h{{horario['idHorario']}}" class="text-center">Masculino</td>
+                                                <td id="7h{{horario['idHorario']}}" class="text-center">bsoto.dev@gmail.com</td>
+                                                <td id="8h{{horario['idHorario']}}" class="text-center">
+                                                    <p style="color:rgb(226, 185, 49)">Por revisar</p>
+                                                </td>
+                                                <td id="9h{{horario['idHorario']}}" class="text-center">Deportista</td>
+                                                <td><button title="Editar" type="button" class="btn btn-info btn-xs"
+                                                        data-toggle="modal" data-target="#modal-nuevo-integrante"><i
+                                                            class="material-icons">
+                                                            edit
+                                                        </i></button></td>
+                                                <td><button title="Ver" type="button" class="btn btn-secondary btn-xs"
+                                                        data-toggle="modal" data-target="#modal-nuevo-integrante"><i
+                                                            class="material-icons">
+                                                            visibility
+                                                        </i></button></td>
+                                            </tr>
+
+                                            <tr>
+                                                <td id="1h{{horario['idHorario']}}" class="text-center">123</td>
+                                                <td id="2h{{horario['idHorario']}}" class="text-center">DNI</td>
+                                                <td id="3h{{horario['idHorario']}}" class="text-center">70002229</td>
+                                                <td id="4h{{horario['idHorario']}}" class="text-center">Bryam Angel</td>
+                                                <td id="5h{{horario['idHorario']}}" class="text-center">Soto Nahui</td>
+                                                <td id="6h{{horario['idHorario']}}" class="text-center">Masculino</td>
+                                                <td id="7h{{horario['idHorario']}}" class="text-center">bsoto.dev@gmail.com</td>
+                                                <td id="8h{{horario['idHorario']}}" class="text-center">
+                                                    <p style="color:rgb(226, 185, 49)">Por revisar</p>
+                                                </td>
+                                                <td id="9h{{horario['idHorario']}}" class="text-center">Deportista</td>
+                                                <td><button title="Editar" type="button" class="btn btn-info btn-xs"
+                                                        data-toggle="modal" data-target="#modal-nuevo-integrante"><i
+                                                            class="material-icons">
+                                                            edit
+                                                        </i></button></td>
+                                                <td><button title="Ver" type="button" class="btn btn-secondary btn-xs"
+                                                        data-toggle="modal" data-target="#modal-nuevo-integrante"><i
+                                                            class="material-icons">
+                                                            visibility
+                                                        </i></button></td>
+                                            </tr>
+
+                                            <tr>
+                                                <td id="1h{{horario['idHorario']}}" class="text-center">123</td>
+                                                <td id="2h{{horario['idHorario']}}" class="text-center">DNI</td>
+                                                <td id="3h{{horario['idHorario']}}" class="text-center">70002229</td>
+                                                <td id="4h{{horario['idHorario']}}" class="text-center">Bryam Angel</td>
+                                                <td id="5h{{horario['idHorario']}}" class="text-center">Soto Nahui</td>
+                                                <td id="6h{{horario['idHorario']}}" class="text-center">Masculino</td>
+                                                <td id="7h{{horario['idHorario']}}" class="text-center">bsoto.dev@gmail.com</td>
+                                                <td id="8h{{horario['idHorario']}}" class="text-center">
+                                                    <p style="color:rgb(226, 185, 49)">Por revisar</p>
+                                                </td>
+                                                <td id="9h{{horario['idHorario']}}" class="text-center">Deportista</td>
+                                                <td><button title="Editar" type="button" class="btn btn-info btn-xs"
+                                                        data-toggle="modal" data-target="#modal-nuevo-integrante"><i
+                                                            class="material-icons">
+                                                            edit
+                                                        </i></button></td>
+                                                <td><button title="Ver" type="button" class="btn btn-secondary btn-xs"
+                                                        data-toggle="modal" data-target="#modal-nuevo-integrante"><i
+                                                            class="material-icons">
+                                                            visibility
+                                                        </i></button></td>
+                                            </tr>
+
+                                            <tr>
+                                                <td id="1h{{horario['idHorario']}}" class="text-center">123</td>
+                                                <td id="2h{{horario['idHorario']}}" class="text-center">DNI</td>
+                                                <td id="3h{{horario['idHorario']}}" class="text-center">70002229</td>
+                                                <td id="4h{{horario['idHorario']}}" class="text-center">Bryam Angel</td>
+                                                <td id="5h{{horario['idHorario']}}" class="text-center">Soto Nahui</td>
+                                                <td id="6h{{horario['idHorario']}}" class="text-center">Masculino</td>
+                                                <td id="7h{{horario['idHorario']}}" class="text-center">bsoto.dev@gmail.com</td>
+                                                <td id="8h{{horario['idHorario']}}" class="text-center">
+                                                    <p style="color:rgb(226, 185, 49)">Por revisar</p>
+                                                </td>
+                                                <td id="9h{{horario['idHorario']}}" class="text-center">Deportista</td>
+                                                <td><button title="Editar" type="button" class="btn btn-info btn-xs"
+                                                        data-toggle="modal" data-target="#modal-nuevo-integrante"><i
+                                                            class="material-icons">
+                                                            edit
+                                                        </i></button></td>
+                                                <td><button title="Ver" type="button" class="btn btn-secondary btn-xs"
+                                                        data-toggle="modal" data-target="#modal-nuevo-integrante"><i
+                                                            class="material-icons">
+                                                            visibility
+                                                        </i></button></td>
+                                            </tr>
+
+                                            <tr>
+                                                <td id="1h{{horario['idHorario']}}" class="text-center">123</td>
+                                                <td id="2h{{horario['idHorario']}}" class="text-center">DNI</td>
+                                                <td id="3h{{horario['idHorario']}}" class="text-center">70002229</td>
+                                                <td id="4h{{horario['idHorario']}}" class="text-center">Bryam Angel</td>
+                                                <td id="5h{{horario['idHorario']}}" class="text-center">Soto Nahui</td>
+                                                <td id="6h{{horario['idHorario']}}" class="text-center">Masculino</td>
+                                                <td id="7h{{horario['idHorario']}}" class="text-center">bsoto.dev@gmail.com</td>
+                                                <td id="8h{{horario['idHorario']}}" class="text-center">
+                                                    <p style="color:rgb(226, 185, 49)">Por revisar</p>
+                                                </td>
+                                                <td id="9h{{horario['idHorario']}}" class="text-center">Deportista</td>
+                                                <td><button title="Editar" type="button" class="btn btn-info btn-xs"
+                                                        data-toggle="modal" data-target="#modal-nuevo-integrante"><i
+                                                            class="material-icons">
+                                                            edit
+                                                        </i></button></td>
+                                                <td><button title="Ver" type="button" class="btn btn-secondary btn-xs"
+                                                        data-toggle="modal" data-target="#modal-nuevo-integrante"><i
+                                                            class="material-icons">
+                                                            visibility
+                                                        </i></button></td>
+                                            </tr>
+
+                                        </tbody>
+
+                                    </table>
+
+                                </div>
+
+                                <br>
+                                <div class="dropdown-divider"></div>
+                                <br>
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-right">
+                                    <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal-nuevo-integrante">Nuevo
+                                        integrante</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header" id="heading3">
+                            <h5 class="mb-0">
+                                <button class="btn btn-lg btn-block btn-light" data-toggle="collapse" data-target="#collapse3"
+                                    aria-expanded="false" aria-controls="collapseTwo">
+                                    Rugby
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#accordion">
+                            <div class="card-body">
+
+                                <div class="panel panel-default" style="overflow-x:auto; overflow-y:scroll; height:50vh; ">
+
+                                    <table class="table" style="width: 100%;">
+                                        <thead class="container-header" class="text-center">
+                                            <tr>
+                                                <th class="text-center" style="font-size:14px">Código</th>
+                                                <th class="text-center" style="font-size:14px">Tipo Documento</th>
+                                                <th class="text-center" style="font-size:14px">Numero Documento</th>
+                                                <th class="text-center" style="font-size:14px">Nombres</th>
+                                                <th class="text-center" style="font-size:14px">Apellidos</th>
+                                                <th class="text-center" style="font-size:14px">Sexo</th>
+                                                <th class="text-center" style="font-size:14px">Correo</th>
+                                                <th class="text-center" style="font-size:14px">Estado</th>
+                                                <th class="text-center" style="font-size:14px">Tipo</th>
+                                                <th></th>
+                                                <th></th>
+                                            </tr>
+
+                                        </thead>
+
+                                        <tbody id="1{{complejosDisciplina['idDisciplina']}}" class="buscar">
+
+                                            <tr>
+                                                <td id="1h{{horario['idHorario']}}" class="text-center">123</td>
+                                                <td id="2h{{horario['idHorario']}}" class="text-center">DNI</td>
+                                                <td id="3h{{horario['idHorario']}}" class="text-center">70002229</td>
+                                                <td id="4h{{horario['idHorario']}}" class="text-center">Bryam Angel</td>
+                                                <td id="5h{{horario['idHorario']}}" class="text-center">Soto Nahui</td>
+                                                <td id="6h{{horario['idHorario']}}" class="text-center">Masculino</td>
+                                                <td id="7h{{horario['idHorario']}}" class="text-center">bsoto.dev@gmail.com</td>
+                                                <td id="8h{{horario['idHorario']}}" class="text-center">
+                                                    <p style="color:rgb(226, 185, 49)">Por revisar</p>
+                                                </td>
+                                                <td id="9h{{horario['idHorario']}}" class="text-center">Deportista</td>
+                                                <td><button title="Editar" type="button" class="btn btn-info btn-xs"
+                                                        data-toggle="modal" data-target="#modal-nuevo-integrante"><i
+                                                            class="material-icons">
+                                                            edit
+                                                        </i></button></td>
+                                                <td><button title="Ver" type="button" class="btn btn-secondary btn-xs"
+                                                        data-toggle="modal" data-target="#modal-nuevo-integrante"><i
+                                                            class="material-icons">
+                                                            visibility
+                                                        </i></button></td>
+                                            </tr>
+
+                                            <tr>
+                                                <td id="1h{{horario['idHorario']}}" class="text-center">123</td>
+                                                <td id="2h{{horario['idHorario']}}" class="text-center">DNI</td>
+                                                <td id="3h{{horario['idHorario']}}" class="text-center">70002229</td>
+                                                <td id="4h{{horario['idHorario']}}" class="text-center">Bryam Angel</td>
+                                                <td id="5h{{horario['idHorario']}}" class="text-center">Soto Nahui</td>
+                                                <td id="6h{{horario['idHorario']}}" class="text-center">Masculino</td>
+                                                <td id="7h{{horario['idHorario']}}" class="text-center">bsoto.dev@gmail.com</td>
+                                                <td id="8h{{horario['idHorario']}}" class="text-center">
+                                                    <p style="color:rgb(226, 185, 49)">Por revisar</p>
+                                                </td>
+                                                <td id="9h{{horario['idHorario']}}" class="text-center">Deportista</td>
+                                                <td><button title="Editar" type="button" class="btn btn-info btn-xs"
+                                                        data-toggle="modal" data-target="#modal-nuevo-integrante"><i
+                                                            class="material-icons">
+                                                            edit
+                                                        </i></button></td>
+                                                <td><button title="Ver" type="button" class="btn btn-secondary btn-xs"
+                                                        data-toggle="modal" data-target="#modal-nuevo-integrante"><i
+                                                            class="material-icons">
+                                                            visibility
+                                                        </i></button></td>
+                                            </tr>
+
+                                            <tr>
+                                                <td id="1h{{horario['idHorario']}}" class="text-center">123</td>
+                                                <td id="2h{{horario['idHorario']}}" class="text-center">DNI</td>
+                                                <td id="3h{{horario['idHorario']}}" class="text-center">70002229</td>
+                                                <td id="4h{{horario['idHorario']}}" class="text-center">Bryam Angel</td>
+                                                <td id="5h{{horario['idHorario']}}" class="text-center">Soto Nahui</td>
+                                                <td id="6h{{horario['idHorario']}}" class="text-center">Masculino</td>
+                                                <td id="7h{{horario['idHorario']}}" class="text-center">bsoto.dev@gmail.com</td>
+                                                <td id="8h{{horario['idHorario']}}" class="text-center">
+                                                    <p style="color:rgb(226, 185, 49)">Por revisar</p>
+                                                </td>
+                                                <td id="9h{{horario['idHorario']}}" class="text-center">Deportista</td>
+                                                <td><button title="Editar" type="button" class="btn btn-info btn-xs"
+                                                        data-toggle="modal" data-target="#modal-nuevo-integrante"><i
+                                                            class="material-icons">
+                                                            edit
+                                                        </i></button></td>
+                                                <td><button title="Ver" type="button" class="btn btn-secondary btn-xs"
+                                                        data-toggle="modal" data-target="#modal-nuevo-integrante"><i
+                                                            class="material-icons">
+                                                            visibility
+                                                        </i></button></td>
+                                            </tr>
+
+                                            <tr>
+                                                <td id="1h{{horario['idHorario']}}" class="text-center">123</td>
+                                                <td id="2h{{horario['idHorario']}}" class="text-center">DNI</td>
+                                                <td id="3h{{horario['idHorario']}}" class="text-center">70002229</td>
+                                                <td id="4h{{horario['idHorario']}}" class="text-center">Bryam Angel</td>
+                                                <td id="5h{{horario['idHorario']}}" class="text-center">Soto Nahui</td>
+                                                <td id="6h{{horario['idHorario']}}" class="text-center">Masculino</td>
+                                                <td id="7h{{horario['idHorario']}}" class="text-center">bsoto.dev@gmail.com</td>
+                                                <td id="8h{{horario['idHorario']}}" class="text-center">
+                                                    <p style="color:rgb(226, 185, 49)">Por revisar</p>
+                                                </td>
+                                                <td id="9h{{horario['idHorario']}}" class="text-center">Deportista</td>
+                                                <td><button title="Editar" type="button" class="btn btn-info btn-xs"
+                                                        data-toggle="modal" data-target="#modal-nuevo-integrante"><i
+                                                            class="material-icons">
+                                                            edit
+                                                        </i></button></td>
+                                                <td><button title="Ver" type="button" class="btn btn-secondary btn-xs"
+                                                        data-toggle="modal" data-target="#modal-nuevo-integrante"><i
+                                                            class="material-icons">
+                                                            visibility
+                                                        </i></button></td>
+                                            </tr>
+
+                                            <tr>
+                                                <td id="1h{{horario['idHorario']}}" class="text-center">123</td>
+                                                <td id="2h{{horario['idHorario']}}" class="text-center">DNI</td>
+                                                <td id="3h{{horario['idHorario']}}" class="text-center">70002229</td>
+                                                <td id="4h{{horario['idHorario']}}" class="text-center">Bryam Angel</td>
+                                                <td id="5h{{horario['idHorario']}}" class="text-center">Soto Nahui</td>
+                                                <td id="6h{{horario['idHorario']}}" class="text-center">Masculino</td>
+                                                <td id="7h{{horario['idHorario']}}" class="text-center">bsoto.dev@gmail.com</td>
+                                                <td id="8h{{horario['idHorario']}}" class="text-center">
+                                                    <p style="color:rgb(226, 185, 49)">Por revisar</p>
+                                                </td>
+                                                <td id="9h{{horario['idHorario']}}" class="text-center">Deportista</td>
+                                                <td><button title="Editar" type="button" class="btn btn-info btn-xs"
+                                                        data-toggle="modal" data-target="#modal-nuevo-integrante"><i
+                                                            class="material-icons">
+                                                            edit
+                                                        </i></button></td>
+                                                <td><button title="Ver" type="button" class="btn btn-secondary btn-xs"
+                                                        data-toggle="modal" data-target="#modal-nuevo-integrante"><i
+                                                            class="material-icons">
+                                                            visibility
+                                                        </i></button></td>
+                                            </tr>
+
+                                        </tbody>
+
+                                    </table>
+
+                                </div>
+
+                                <br>
+                                <div class="dropdown-divider"></div>
+                                <br>
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-right">
+                                    <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal-nuevo-integrante">Nuevo
+                                        integrante</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header" id="heading4">
+                            <h5 class="mb-0">
+                                <button class="btn btn-lg btn-block btn-light" data-toggle="collapse" data-target="#collapse4"
+                                    aria-expanded="false" aria-controls="collapse4">
+                                    Voley
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#accordion">
+                            <div class="card-body">
+
+                                <div class="panel panel-default" style="overflow-x:auto; overflow-y:scroll; height:50vh; ">
+
+                                    <table class="table table-hover table-striped" style="width: 100%;">
+                                        <thead class="container-header" class="text-center">
+                                            <tr>
+                                                <th class="text-center" style="font-size:14px">Código</th>
+                                                <th class="text-center" style="font-size:14px">Tipo Documento</th>
+                                                <th class="text-center" style="font-size:14px">Numero Documento</th>
+                                                <th class="text-center" style="font-size:14px">Nombres</th>
+                                                <th class="text-center" style="font-size:14px">Apellidos</th>
+                                                <th class="text-center" style="font-size:14px">Sexo</th>
+                                                <th class="text-center" style="font-size:14px">Correo</th>
+                                                <th class="text-center" style="font-size:14px">Estado</th>
+                                                <th class="text-center" style="font-size:14px">Tipo</th>
+                                                <th></th>
+                                                <th></th>
+                                            </tr>
+
+                                        </thead>
+
+                                        <tbody id="1{{complejosDisciplina['idDisciplina']}}" class="buscar">
+
+                                            <tr>
+                                                <td id="1h{{horario['idHorario']}}" class="text-center">123</td>
+                                                <td id="2h{{horario['idHorario']}}" class="text-center">DNI</td>
+                                                <td id="3h{{horario['idHorario']}}" class="text-center">70002229</td>
+                                                <td id="4h{{horario['idHorario']}}" class="text-center">Bryam Angel</td>
+                                                <td id="5h{{horario['idHorario']}}" class="text-center">Soto Nahui</td>
+                                                <td id="6h{{horario['idHorario']}}" class="text-center">Masculino</td>
+                                                <td id="7h{{horario['idHorario']}}" class="text-center">bsoto.dev@gmail.com</td>
+                                                <td id="8h{{horario['idHorario']}}" class="text-center">
+                                                    <p style="color:rgb(226, 185, 49)">Por revisar</p>
+                                                </td>
+                                                <td id="9h{{horario['idHorario']}}" class="text-center">Deportista</td>
+                                                <td><button title="Editar" type="button" class="btn btn-info btn-xs"
+                                                        data-toggle="modal" data-target="#modal-nuevo-integrante"><i
+                                                            class="material-icons">
+                                                            edit
+                                                        </i></button></td>
+                                                <td><button title="Ver" type="button" class="btn btn-secondary btn-xs"
+                                                        data-toggle="modal" data-target="#modal-nuevo-integrante"><i
+                                                            class="material-icons">
+                                                            visibility
+                                                        </i></button></td>
+                                            </tr>
+
+                                            <tr>
+                                                <td id="1h{{horario['idHorario']}}" class="text-center">123</td>
+                                                <td id="2h{{horario['idHorario']}}" class="text-center">DNI</td>
+                                                <td id="3h{{horario['idHorario']}}" class="text-center">70002229</td>
+                                                <td id="4h{{horario['idHorario']}}" class="text-center">Bryam Angel</td>
+                                                <td id="5h{{horario['idHorario']}}" class="text-center">Soto Nahui</td>
+                                                <td id="6h{{horario['idHorario']}}" class="text-center">Masculino</td>
+                                                <td id="7h{{horario['idHorario']}}" class="text-center">bsoto.dev@gmail.com</td>
+                                                <td id="8h{{horario['idHorario']}}" class="text-center">
+                                                    <p style="color:rgb(226, 185, 49)">Por revisar</p>
+                                                </td>
+                                                <td id="9h{{horario['idHorario']}}" class="text-center">Deportista</td>
+                                                <td><button title="Editar" type="button" class="btn btn-info btn-xs"
+                                                        data-toggle="modal" data-target="#modal-nuevo-integrante"><i
+                                                            class="material-icons">
+                                                            edit
+                                                        </i></button></td>
+                                                <td><button title="Ver" type="button" class="btn btn-secondary btn-xs"
+                                                        data-toggle="modal" data-target="#modal-nuevo-integrante"><i
+                                                            class="material-icons">
+                                                            visibility
+                                                        </i></button></td>
+                                            </tr>
+
+                                            <tr>
+                                                <td id="1h{{horario['idHorario']}}" class="text-center">123</td>
+                                                <td id="2h{{horario['idHorario']}}" class="text-center">DNI</td>
+                                                <td id="3h{{horario['idHorario']}}" class="text-center">70002229</td>
+                                                <td id="4h{{horario['idHorario']}}" class="text-center">Bryam Angel</td>
+                                                <td id="5h{{horario['idHorario']}}" class="text-center">Soto Nahui</td>
+                                                <td id="6h{{horario['idHorario']}}" class="text-center">Masculino</td>
+                                                <td id="7h{{horario['idHorario']}}" class="text-center">bsoto.dev@gmail.com</td>
+                                                <td id="8h{{horario['idHorario']}}" class="text-center">
+                                                    <p style="color:rgb(226, 185, 49)">Por revisar</p>
+                                                </td>
+                                                <td id="9h{{horario['idHorario']}}" class="text-center">Deportista</td>
+                                                <td><button title="Editar" type="button" class="btn btn-info btn-xs"
+                                                        data-toggle="modal" data-target="#modal-nuevo-integrante"><i
+                                                            class="material-icons">
+                                                            edit
+                                                        </i></button></td>
+                                                <td><button title="Ver" type="button" class="btn btn-secondary btn-xs"
+                                                        data-toggle="modal" data-target="#modal-nuevo-integrante"><i
+                                                            class="material-icons">
+                                                            visibility
+                                                        </i></button></td>
+                                            </tr>
+
+                                            <tr>
+                                                <td id="1h{{horario['idHorario']}}" class="text-center">123</td>
+                                                <td id="2h{{horario['idHorario']}}" class="text-center">DNI</td>
+                                                <td id="3h{{horario['idHorario']}}" class="text-center">70002229</td>
+                                                <td id="4h{{horario['idHorario']}}" class="text-center">Bryam Angel</td>
+                                                <td id="5h{{horario['idHorario']}}" class="text-center">Soto Nahui</td>
+                                                <td id="6h{{horario['idHorario']}}" class="text-center">Masculino</td>
+                                                <td id="7h{{horario['idHorario']}}" class="text-center">bsoto.dev@gmail.com</td>
+                                                <td id="8h{{horario['idHorario']}}" class="text-center">
+                                                    <p style="color:rgb(226, 185, 49)">Por revisar</p>
+                                                </td>
+                                                <td id="9h{{horario['idHorario']}}" class="text-center">Deportista</td>
+                                                <td><button title="Editar" type="button" class="btn btn-info btn-xs"
+                                                        data-toggle="modal" data-target="#modal-nuevo-integrante"><i
+                                                            class="material-icons">
+                                                            edit
+                                                        </i></button></td>
+                                                <td><button title="Ver" type="button" class="btn btn-secondary btn-xs"
+                                                        data-toggle="modal" data-target="#modal-nuevo-integrante"><i
+                                                            class="material-icons">
+                                                            visibility
+                                                        </i></button></td>
+                                            </tr>
+
+                                            <tr>
+                                                <td id="1h{{horario['idHorario']}}" class="text-center">123</td>
+                                                <td id="2h{{horario['idHorario']}}" class="text-center">DNI</td>
+                                                <td id="3h{{horario['idHorario']}}" class="text-center">70002229</td>
+                                                <td id="4h{{horario['idHorario']}}" class="text-center">Bryam Angel</td>
+                                                <td id="5h{{horario['idHorario']}}" class="text-center">Soto Nahui</td>
+                                                <td id="6h{{horario['idHorario']}}" class="text-center">Masculino</td>
+                                                <td id="7h{{horario['idHorario']}}" class="text-center">bsoto.dev@gmail.com</td>
+                                                <td id="8h{{horario['idHorario']}}" class="text-center">
+                                                    <p style="color:rgb(226, 185, 49)">Por revisar</p>
+                                                </td>
+                                                <td id="9h{{horario['idHorario']}}" class="text-center">Deportista</td>
+                                                <td><button title="Editar" type="button" class="btn btn-info btn-xs"
+                                                        data-toggle="modal" data-target="#modal-nuevo-integrante"><i
+                                                            class="material-icons">
+                                                            edit
+                                                        </i></button></td>
+                                                <td><button title="Ver" type="button" class="btn btn-secondary btn-xs"
+                                                        data-toggle="modal" data-target="#modal-nuevo-integrante"><i
+                                                            class="material-icons">
+                                                            visibility
+                                                        </i></button></td>
+                                            </tr>
+
+                                        </tbody>
+
+                                    </table>
+
+                                </div>
+
+                                <br>
+                                <div class="dropdown-divider"></div>
+                                <br>
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-right">
+                                    <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal-nuevo-integrante">Nuevo
+                                        integrante</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header" id="heading5">
+                            <h5 class="mb-0">
+                                <button class="btn btn-lg btn-block btn-light" data-toggle="collapse" data-target="#collapse5"
+                                    aria-expanded="false" aria-controls="collapse5">
+                                    Basket
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapse5" class="collapse" aria-labelledby="heading5" data-parent="#accordion">
+                            <div class="card-body">
+
+                                <div class="panel panel-default" style="overflow-x:auto; overflow-y:scroll; height:50vh; ">
+
+                                    <table class="table" style="width: 100%;">
+                                        <thead class="container-header" class="text-center">
+                                            <tr>
+                                                <th class="text-center" style="font-size:14px">Código</th>
+                                                <th class="text-center" style="font-size:14px">Tipo Documento</th>
+                                                <th class="text-center" style="font-size:14px">Numero Documento</th>
+                                                <th class="text-center" style="font-size:14px">Nombres</th>
+                                                <th class="text-center" style="font-size:14px">Apellidos</th>
+                                                <th class="text-center" style="font-size:14px">Sexo</th>
+                                                <th class="text-center" style="font-size:14px">Correo</th>
+                                                <th class="text-center" style="font-size:14px">Estado</th>
+                                                <th class="text-center" style="font-size:14px">Tipo</th>
+                                                <th></th>
+                                                <th></th>
+                                            </tr>
+
+                                        </thead>
+
+                                        <tbody id="1{{complejosDisciplina['idDisciplina']}}" class="buscar">
+
+                                            <tr>
+                                                <td id="1h{{horario['idHorario']}}" class="text-center">123</td>
+                                                <td id="2h{{horario['idHorario']}}" class="text-center">DNI</td>
+                                                <td id="3h{{horario['idHorario']}}" class="text-center">70002229</td>
+                                                <td id="4h{{horario['idHorario']}}" class="text-center">Bryam Angel</td>
+                                                <td id="5h{{horario['idHorario']}}" class="text-center">Soto Nahui</td>
+                                                <td id="6h{{horario['idHorario']}}" class="text-center">Masculino</td>
+                                                <td id="7h{{horario['idHorario']}}" class="text-center">bsoto.dev@gmail.com</td>
+                                                <td id="8h{{horario['idHorario']}}" class="text-center">
+                                                    <p style="color:rgb(226, 185, 49)">Por revisar</p>
+                                                </td>
+                                                <td id="9h{{horario['idHorario']}}" class="text-center">Deportista</td>
+                                                <td><button title="Editar" type="button" class="btn btn-info btn-xs"
+                                                        data-toggle="modal" data-target="#modal-nuevo-integrante"><i
+                                                            class="material-icons">
+                                                            edit
+                                                        </i></button></td>
+                                                <td><button title="Ver" type="button" class="btn btn-secondary btn-xs"
+                                                        data-toggle="modal" data-target="#modal-nuevo-integrante"><i
+                                                            class="material-icons">
+                                                            visibility
+                                                        </i></button></td>
+                                            </tr>
+
+                                            <tr>
+                                                <td id="1h{{horario['idHorario']}}" class="text-center">123</td>
+                                                <td id="2h{{horario['idHorario']}}" class="text-center">DNI</td>
+                                                <td id="3h{{horario['idHorario']}}" class="text-center">70002229</td>
+                                                <td id="4h{{horario['idHorario']}}" class="text-center">Bryam Angel</td>
+                                                <td id="5h{{horario['idHorario']}}" class="text-center">Soto Nahui</td>
+                                                <td id="6h{{horario['idHorario']}}" class="text-center">Masculino</td>
+                                                <td id="7h{{horario['idHorario']}}" class="text-center">bsoto.dev@gmail.com</td>
+                                                <td id="8h{{horario['idHorario']}}" class="text-center">
+                                                    <p style="color:rgb(226, 185, 49)">Por revisar</p>
+                                                </td>
+                                                <td id="9h{{horario['idHorario']}}" class="text-center">Deportista</td>
+                                                <td><button title="Editar" type="button" class="btn btn-info btn-xs"
+                                                        data-toggle="modal" data-target="#modal-nuevo-integrante"><i
+                                                            class="material-icons">
+                                                            edit
+                                                        </i></button></td>
+                                                <td><button title="Ver" type="button" class="btn btn-secondary btn-xs"
+                                                        data-toggle="modal" data-target="#modal-nuevo-integrante"><i
+                                                            class="material-icons">
+                                                            visibility
+                                                        </i></button></td>
+                                            </tr>
+
+                                            <tr>
+                                                <td id="1h{{horario['idHorario']}}" class="text-center">123</td>
+                                                <td id="2h{{horario['idHorario']}}" class="text-center">DNI</td>
+                                                <td id="3h{{horario['idHorario']}}" class="text-center">70002229</td>
+                                                <td id="4h{{horario['idHorario']}}" class="text-center">Bryam Angel</td>
+                                                <td id="5h{{horario['idHorario']}}" class="text-center">Soto Nahui</td>
+                                                <td id="6h{{horario['idHorario']}}" class="text-center">Masculino</td>
+                                                <td id="7h{{horario['idHorario']}}" class="text-center">bsoto.dev@gmail.com</td>
+                                                <td id="8h{{horario['idHorario']}}" class="text-center">
+                                                    <p style="color:rgb(226, 185, 49)">Por revisar</p>
+                                                </td>
+                                                <td id="9h{{horario['idHorario']}}" class="text-center">Deportista</td>
+                                                <td><button title="Editar" type="button" class="btn btn-info btn-xs"
+                                                        data-toggle="modal" data-target="#modal-nuevo-integrante"><i
+                                                            class="material-icons">
+                                                            edit
+                                                        </i></button></td>
+                                                <td><button title="Ver" type="button" class="btn btn-secondary btn-xs"
+                                                        data-toggle="modal" data-target="#modal-nuevo-integrante"><i
+                                                            class="material-icons">
+                                                            visibility
+                                                        </i></button></td>
+                                            </tr>
+
+                                            <tr>
+                                                <td id="1h{{horario['idHorario']}}" class="text-center">123</td>
+                                                <td id="2h{{horario['idHorario']}}" class="text-center">DNI</td>
+                                                <td id="3h{{horario['idHorario']}}" class="text-center">70002229</td>
+                                                <td id="4h{{horario['idHorario']}}" class="text-center">Bryam Angel</td>
+                                                <td id="5h{{horario['idHorario']}}" class="text-center">Soto Nahui</td>
+                                                <td id="6h{{horario['idHorario']}}" class="text-center">Masculino</td>
+                                                <td id="7h{{horario['idHorario']}}" class="text-center">bsoto.dev@gmail.com</td>
+                                                <td id="8h{{horario['idHorario']}}" class="text-center">
+                                                    <p style="color:rgb(226, 185, 49)">Por revisar</p>
+                                                </td>
+                                                <td id="9h{{horario['idHorario']}}" class="text-center">Deportista</td>
+                                                <td><button title="Editar" type="button" class="btn btn-info btn-xs"
+                                                        data-toggle="modal" data-target="#modal-nuevo-integrante"><i
+                                                            class="material-icons">
+                                                            edit
+                                                        </i></button></td>
+                                                <td><button title="Ver" type="button" class="btn btn-secondary btn-xs"
+                                                        data-toggle="modal" data-target="#modal-nuevo-integrante"><i
+                                                            class="material-icons">
+                                                            visibility
+                                                        </i></button></td>
+                                            </tr>
+
+                                            <tr>
+                                                <td id="1h{{horario['idHorario']}}" class="text-center">123</td>
+                                                <td id="2h{{horario['idHorario']}}" class="text-center">DNI</td>
+                                                <td id="3h{{horario['idHorario']}}" class="text-center">70002229</td>
+                                                <td id="4h{{horario['idHorario']}}" class="text-center">Bryam Angel</td>
+                                                <td id="5h{{horario['idHorario']}}" class="text-center">Soto Nahui</td>
+                                                <td id="6h{{horario['idHorario']}}" class="text-center">Masculino</td>
+                                                <td id="7h{{horario['idHorario']}}" class="text-center">bsoto.dev@gmail.com</td>
+                                                <td id="8h{{horario['idHorario']}}" class="text-center">
+                                                    <p style="color:rgb(226, 185, 49)">Por revisar</p>
+                                                </td>
+                                                <td id="9h{{horario['idHorario']}}" class="text-center">Deportista</td>
+                                                <td><button title="Editar" type="button" class="btn btn-info btn-xs"
+                                                        data-toggle="modal" data-target="#modal-nuevo-integrante"><i
+                                                            class="material-icons">
+                                                            edit
+                                                        </i></button></td>
+                                                <td><button title="Ver" type="button" class="btn btn-secondary btn-xs"
+                                                        data-toggle="modal" data-target="#modal-nuevo-integrante"><i
+                                                            class="material-icons">
+                                                            visibility
+                                                        </i></button></td>
+                                            </tr>
+
+                                        </tbody>
+
+                                    </table>
+
+                                </div>
+
+                                <br>
+                                <div class="dropdown-divider"></div>
+                                <br>
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-right">
+                                    <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal-nuevo-integrante">Nuevo
+                                        integrante</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header" id="heading6">
+                            <h5 class="mb-0">
+                                <button class="btn btn-lg btn-block btn-light" data-toggle="collapse" data-target="#collapse6"
+                                    aria-expanded="false" aria-controls="collapse6">
+                                    Gimnasia
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapse6" class="collapse" aria-labelledby="heading6" data-parent="#accordion">
+                            <div class="card-body">
+
+                                <div class="panel panel-default" style="overflow-x:auto; overflow-y:scroll; height:50vh; ">
+
+                                    <table class="table table-hover table-striped" style="width: 100%;">
+                                        <thead class="container-header" class="text-center">
+                                            <tr>
+                                                <th class="text-center" style="font-size:14px">Código</th>
+                                                <th class="text-center" style="font-size:14px">Tipo Documento</th>
+                                                <th class="text-center" style="font-size:14px">Numero Documento</th>
+                                                <th class="text-center" style="font-size:14px">Nombres</th>
+                                                <th class="text-center" style="font-size:14px">Apellidos</th>
+                                                <th class="text-center" style="font-size:14px">Sexo</th>
+                                                <th class="text-center" style="font-size:14px">Correo</th>
+                                                <th class="text-center" style="font-size:14px">Estado</th>
+                                                <th class="text-center" style="font-size:14px">Tipo</th>
+                                                <th></th>
+                                                <th></th>
+                                            </tr>
+
+                                        </thead>
+
+                                        <tbody id="1{{complejosDisciplina['idDisciplina']}}" class="buscar">
+
+                                            <tr>
+                                                <td id="1h{{horario['idHorario']}}" class="text-center">123</td>
+                                                <td id="2h{{horario['idHorario']}}" class="text-center">DNI</td>
+                                                <td id="3h{{horario['idHorario']}}" class="text-center">70002229</td>
+                                                <td id="4h{{horario['idHorario']}}" class="text-center">Bryam Angel</td>
+                                                <td id="5h{{horario['idHorario']}}" class="text-center">Soto Nahui</td>
+                                                <td id="6h{{horario['idHorario']}}" class="text-center">Masculino</td>
+                                                <td id="7h{{horario['idHorario']}}" class="text-center">bsoto.dev@gmail.com</td>
+                                                <td id="8h{{horario['idHorario']}}" class="text-center">
+                                                    <p style="color:rgb(226, 185, 49)">Por revisar</p>
+                                                </td>
+                                                <td id="9h{{horario['idHorario']}}" class="text-center">Deportista</td>
+                                                <td><button title="Editar" type="button" class="btn btn-info btn-xs"
+                                                        data-toggle="modal" data-target="#modal-nuevo-integrante"><i
+                                                            class="material-icons">
+                                                            edit
+                                                        </i></button></td>
+                                                <td><button title="Ver" type="button" class="btn btn-secondary btn-xs"
+                                                        data-toggle="modal" data-target="#modal-nuevo-integrante"><i
+                                                            class="material-icons">
+                                                            visibility
+                                                        </i></button></td>
+                                            </tr>
+
+                                            <tr>
+                                                <td id="1h{{horario['idHorario']}}" class="text-center">123</td>
+                                                <td id="2h{{horario['idHorario']}}" class="text-center">DNI</td>
+                                                <td id="3h{{horario['idHorario']}}" class="text-center">70002229</td>
+                                                <td id="4h{{horario['idHorario']}}" class="text-center">Bryam Angel</td>
+                                                <td id="5h{{horario['idHorario']}}" class="text-center">Soto Nahui</td>
+                                                <td id="6h{{horario['idHorario']}}" class="text-center">Masculino</td>
+                                                <td id="7h{{horario['idHorario']}}" class="text-center">bsoto.dev@gmail.com</td>
+                                                <td id="8h{{horario['idHorario']}}" class="text-center">
+                                                    <p style="color:rgb(226, 185, 49)">Por revisar</p>
+                                                </td>
+                                                <td id="9h{{horario['idHorario']}}" class="text-center">Deportista</td>
+                                                <td><button title="Editar" type="button" class="btn btn-info btn-xs"
+                                                        data-toggle="modal" data-target="#modal-nuevo-integrante"><i
+                                                            class="material-icons">
+                                                            edit
+                                                        </i></button></td>
+                                                <td><button title="Ver" type="button" class="btn btn-secondary btn-xs"
+                                                        data-toggle="modal" data-target="#modal-nuevo-integrante"><i
+                                                            class="material-icons">
+                                                            visibility
+                                                        </i></button></td>
+                                            </tr>
+
+                                            <tr>
+                                                <td id="1h{{horario['idHorario']}}" class="text-center">123</td>
+                                                <td id="2h{{horario['idHorario']}}" class="text-center">DNI</td>
+                                                <td id="3h{{horario['idHorario']}}" class="text-center">70002229</td>
+                                                <td id="4h{{horario['idHorario']}}" class="text-center">Bryam Angel</td>
+                                                <td id="5h{{horario['idHorario']}}" class="text-center">Soto Nahui</td>
+                                                <td id="6h{{horario['idHorario']}}" class="text-center">Masculino</td>
+                                                <td id="7h{{horario['idHorario']}}" class="text-center">bsoto.dev@gmail.com</td>
+                                                <td id="8h{{horario['idHorario']}}" class="text-center">
+                                                    <p style="color:rgb(226, 185, 49)">Por revisar</p>
+                                                </td>
+                                                <td id="9h{{horario['idHorario']}}" class="text-center">Deportista</td>
+                                                <td><button title="Editar" type="button" class="btn btn-info btn-xs"
+                                                        data-toggle="modal" data-target="#modal-nuevo-integrante"><i
+                                                            class="material-icons">
+                                                            edit
+                                                        </i></button></td>
+                                                <td><button title="Ver" type="button" class="btn btn-secondary btn-xs"
+                                                        data-toggle="modal" data-target="#modal-nuevo-integrante"><i
+                                                            class="material-icons">
+                                                            visibility
+                                                        </i></button></td>
+                                            </tr>
+
+                                            <tr>
+                                                <td id="1h{{horario['idHorario']}}" class="text-center">123</td>
+                                                <td id="2h{{horario['idHorario']}}" class="text-center">DNI</td>
+                                                <td id="3h{{horario['idHorario']}}" class="text-center">70002229</td>
+                                                <td id="4h{{horario['idHorario']}}" class="text-center">Bryam Angel</td>
+                                                <td id="5h{{horario['idHorario']}}" class="text-center">Soto Nahui</td>
+                                                <td id="6h{{horario['idHorario']}}" class="text-center">Masculino</td>
+                                                <td id="7h{{horario['idHorario']}}" class="text-center">bsoto.dev@gmail.com</td>
+                                                <td id="8h{{horario['idHorario']}}" class="text-center">
+                                                    <p style="color:rgb(226, 185, 49)">Por revisar</p>
+                                                </td>
+                                                <td id="9h{{horario['idHorario']}}" class="text-center">Deportista</td>
+                                                <td><button title="Editar" type="button" class="btn btn-info btn-xs"
+                                                        data-toggle="modal" data-target="#modal-nuevo-integrante"><i
+                                                            class="material-icons">
+                                                            edit
+                                                        </i></button></td>
+                                                <td><button title="Ver" type="button" class="btn btn-secondary btn-xs"
+                                                        data-toggle="modal" data-target="#modal-nuevo-integrante"><i
+                                                            class="material-icons">
+                                                            visibility
+                                                        </i></button></td>
+                                            </tr>
+
+                                            <tr>
+                                                <td id="1h{{horario['idHorario']}}" class="text-center">123</td>
+                                                <td id="2h{{horario['idHorario']}}" class="text-center">DNI</td>
+                                                <td id="3h{{horario['idHorario']}}" class="text-center">70002229</td>
+                                                <td id="4h{{horario['idHorario']}}" class="text-center">Bryam Angel</td>
+                                                <td id="5h{{horario['idHorario']}}" class="text-center">Soto Nahui</td>
+                                                <td id="6h{{horario['idHorario']}}" class="text-center">Masculino</td>
+                                                <td id="7h{{horario['idHorario']}}" class="text-center">bsoto.dev@gmail.com</td>
+                                                <td id="8h{{horario['idHorario']}}" class="text-center">
+                                                    <p style="color:rgb(226, 185, 49)">Por revisar</p>
+                                                </td>
+                                                <td id="9h{{horario['idHorario']}}" class="text-center">Deportista</td>
+                                                <td><button title="Editar" type="button" class="btn btn-info btn-xs"
+                                                        data-toggle="modal" data-target="#modal-nuevo-integrante"><i
+                                                            class="material-icons">
+                                                            edit
+                                                        </i></button></td>
+                                                <td><button title="Ver" type="button" class="btn btn-secondary btn-xs"
+                                                        data-toggle="modal" data-target="#modal-nuevo-integrante"><i
+                                                            class="material-icons">
+                                                            visibility
+                                                        </i></button></td>
+                                            </tr>
+
+                                        </tbody>
+
+                                    </table>
+
+                                </div>
+
+                                <br>
+                                <div class="dropdown-divider"></div>
+                                <br>
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-right">
+                                    <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal-nuevo-integrante">Nuevo
+                                        integrante</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
 
                 </div>
 
                 <br>
                 <br>
-                <br>
 
-                <h4>Miembros deportivos</h4>
-
-                <div class="card">
-                    <div class="card-header" id="headingTwo">
-                        <h5 class="mb-0">
-                            <button class="btn btn-lg btn-block btn-light" data-toggle="collapse" data-target="#collapseTwo"
-                                aria-expanded="false" aria-controls="collapseTwo">
-                                Atletismo
-                            </button>
-                        </h5>
-                    </div>
-                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                        <div class="card-body">
-
-                            <div class="panel panel-default" style="overflow-x:auto; overflow-y:scroll; height:50vh; ">
-
-                                <table class="table" style="width: 100%;">
-                                    <thead class="container-header" class="text-center">
-                                        <tr>
-                                            <th class="text-center" style="font-size:14px">Código</th>
-                                            <th class="text-center" style="font-size:14px">Tipo Documento</th>
-                                            <th class="text-center" style="font-size:14px">Numero Documento</th>
-                                            <th class="text-center" style="font-size:14px">Nombres</th>
-                                            <th class="text-center" style="font-size:14px">Apellidos</th>
-                                            <th class="text-center" style="font-size:14px">Sexo</th>
-                                            <th class="text-center" style="font-size:14px">Correo</th>
-                                            <th class="text-center" style="font-size:14px">Estado</th>
-                                            <th class="text-center" style="font-size:14px">Tipo</th>
-                                            <th></th>
-                                            <th></th>
-                                        </tr>
-
-                                    </thead>
-
-                                    <tbody id="1{{complejosDisciplina['idDisciplina']}}" class="buscar">
-
-                                        <tr>
-                                            <td id="1h{{horario['idHorario']}}" class="text-center">123</td>
-                                            <td id="2h{{horario['idHorario']}}" class="text-center">DNI</td>
-                                            <td id="3h{{horario['idHorario']}}" class="text-center">70002229</td>
-                                            <td id="4h{{horario['idHorario']}}" class="text-center">Bryam Angel</td>
-                                            <td id="5h{{horario['idHorario']}}" class="text-center">Soto Nahui</td>
-                                            <td id="6h{{horario['idHorario']}}" class="text-center">Masculino</td>
-                                            <td id="7h{{horario['idHorario']}}" class="text-center">bsoto.dev@gmail.com</td>
-                                            <td id="8h{{horario['idHorario']}}" class="text-center">
-                                                <p style="color:rgb(226, 185, 49)">Por revisar</p>
-                                            </td>
-                                            <td id="9h{{horario['idHorario']}}" class="text-center">Deportista</td>
-                                            <td><button title="Editar" type="button" class="btn btn-info btn-xs"
-                                                    data-toggle="modal" data-target="#modal-nuevo-integrante"><i class="material-icons">
-                                                        edit
-                                                    </i></button></td>
-                                            <td><button title="Ver" type="button" class="btn btn-secondary btn-xs"
-                                                    data-toggle="modal" data-target="#modal-nuevo-integrante"><i class="material-icons">
-                                                        visibility
-                                                    </i></button></td>
-                                        </tr>
-
-                                        <tr>
-                                            <td id="1h{{horario['idHorario']}}" class="text-center">123</td>
-                                            <td id="2h{{horario['idHorario']}}" class="text-center">DNI</td>
-                                            <td id="3h{{horario['idHorario']}}" class="text-center">70002229</td>
-                                            <td id="4h{{horario['idHorario']}}" class="text-center">Bryam Angel</td>
-                                            <td id="5h{{horario['idHorario']}}" class="text-center">Soto Nahui</td>
-                                            <td id="6h{{horario['idHorario']}}" class="text-center">Masculino</td>
-                                            <td id="7h{{horario['idHorario']}}" class="text-center">bsoto.dev@gmail.com</td>
-                                            <td id="8h{{horario['idHorario']}}" class="text-center">
-                                                <p style="color:rgb(226, 185, 49)">Por revisar</p>
-                                            </td>
-                                            <td id="9h{{horario['idHorario']}}" class="text-center">Deportista</td>
-                                            <td><button title="Editar" type="button" class="btn btn-info btn-xs"
-                                                    data-toggle="modal" data-target="#modal-nuevo-integrante"><i class="material-icons">
-                                                        edit
-                                                    </i></button></td>
-                                            <td><button title="Ver" type="button" class="btn btn-secondary btn-xs"
-                                                    data-toggle="modal" data-target="#modal-nuevo-integrante"><i class="material-icons">
-                                                        visibility
-                                                    </i></button></td>
-                                        </tr>
-
-                                        <tr>
-                                            <td id="1h{{horario['idHorario']}}" class="text-center">123</td>
-                                            <td id="2h{{horario['idHorario']}}" class="text-center">DNI</td>
-                                            <td id="3h{{horario['idHorario']}}" class="text-center">70002229</td>
-                                            <td id="4h{{horario['idHorario']}}" class="text-center">Bryam Angel</td>
-                                            <td id="5h{{horario['idHorario']}}" class="text-center">Soto Nahui</td>
-                                            <td id="6h{{horario['idHorario']}}" class="text-center">Masculino</td>
-                                            <td id="7h{{horario['idHorario']}}" class="text-center">bsoto.dev@gmail.com</td>
-                                            <td id="8h{{horario['idHorario']}}" class="text-center">
-                                                <p style="color:rgb(226, 185, 49)">Por revisar</p>
-                                            </td>
-                                            <td id="9h{{horario['idHorario']}}" class="text-center">Deportista</td>
-                                            <td><button title="Editar" type="button" class="btn btn-info btn-xs"
-                                                    data-toggle="modal" data-target="#modal-nuevo-integrante"><i class="material-icons">
-                                                        edit
-                                                    </i></button></td>
-                                            <td><button title="Ver" type="button" class="btn btn-secondary btn-xs"
-                                                    data-toggle="modal" data-target="#modal-nuevo-integrante"><i class="material-icons">
-                                                        visibility
-                                                    </i></button></td>
-                                        </tr>
-
-                                        <tr>
-                                            <td id="1h{{horario['idHorario']}}" class="text-center">123</td>
-                                            <td id="2h{{horario['idHorario']}}" class="text-center">DNI</td>
-                                            <td id="3h{{horario['idHorario']}}" class="text-center">70002229</td>
-                                            <td id="4h{{horario['idHorario']}}" class="text-center">Bryam Angel</td>
-                                            <td id="5h{{horario['idHorario']}}" class="text-center">Soto Nahui</td>
-                                            <td id="6h{{horario['idHorario']}}" class="text-center">Masculino</td>
-                                            <td id="7h{{horario['idHorario']}}" class="text-center">bsoto.dev@gmail.com</td>
-                                            <td id="8h{{horario['idHorario']}}" class="text-center">
-                                                <p style="color:rgb(226, 185, 49)">Por revisar</p>
-                                            </td>
-                                            <td id="9h{{horario['idHorario']}}" class="text-center">Deportista</td>
-                                            <td><button title="Editar" type="button" class="btn btn-info btn-xs"
-                                                    data-toggle="modal" data-target="#modal-nuevo-integrante"><i class="material-icons">
-                                                        edit
-                                                    </i></button></td>
-                                            <td><button title="Ver" type="button" class="btn btn-secondary btn-xs"
-                                                    data-toggle="modal" data-target="#modal-nuevo-integrante"><i class="material-icons">
-                                                        visibility
-                                                    </i></button></td>
-                                        </tr>
-
-                                        <tr>
-                                            <td id="1h{{horario['idHorario']}}" class="text-center">123</td>
-                                            <td id="2h{{horario['idHorario']}}" class="text-center">DNI</td>
-                                            <td id="3h{{horario['idHorario']}}" class="text-center">70002229</td>
-                                            <td id="4h{{horario['idHorario']}}" class="text-center">Bryam Angel</td>
-                                            <td id="5h{{horario['idHorario']}}" class="text-center">Soto Nahui</td>
-                                            <td id="6h{{horario['idHorario']}}" class="text-center">Masculino</td>
-                                            <td id="7h{{horario['idHorario']}}" class="text-center">bsoto.dev@gmail.com</td>
-                                            <td id="8h{{horario['idHorario']}}" class="text-center">
-                                                <p style="color:rgb(226, 185, 49)">Por revisar</p>
-                                            </td>
-                                            <td id="9h{{horario['idHorario']}}" class="text-center">Deportista</td>
-                                            <td><button title="Editar" type="button" class="btn btn-info btn-xs"
-                                                    data-toggle="modal" data-target="#modal-nuevo-integrante"><i class="material-icons">
-                                                        edit
-                                                    </i></button></td>
-                                            <td><button title="Ver" type="button" class="btn btn-secondary btn-xs"
-                                                    data-toggle="modal" data-target="#modal-nuevo-integrante"><i class="material-icons">
-                                                        visibility
-                                                    </i></button></td>
-                                        </tr>
-
-                                    </tbody>
-
-                                </table>
-
-                            </div>
-
-                            <br>
-                            <div class="dropdown-divider"></div>
-                            <br>
-                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-right">
-                                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal-nuevo-integrante">Nuevo
-                                    integrante</button>
-                            </div>
-
-                        </div>
-                    </div>
+                <div class="text-right">
+                    <button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#modal-nueva-foto">Descargar
+                        credenciales</button>
+                    <button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#modal-nueva-foto">Descargar
+                        listado</button>
                 </div>
-
-                <div class="card">
-                    <div class="card-header" id="headingThree">
-                        <h5 class="mb-0">
-                            <button class="btn btn-lg btn-block btn-light" data-toggle="collapse" data-target="#collapseThree"
-                                aria-expanded="false" aria-controls="collapseThree">
-                                Futbol
-                            </button>
-                        </h5>
-                    </div>
-                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-                        <div class="card-body">
-
-                            <div class="panel panel-default" style="overflow-x:auto; overflow-y:scroll; height:50vh; ">
-
-                                <table class="table table-hover table-striped" style="width: 100%;">
-                                    <thead class="container-header" class="text-center">
-                                        <tr>
-                                            <th class="text-center" style="font-size:14px">Código</th>
-                                            <th class="text-center" style="font-size:14px">Tipo Documento</th>
-                                            <th class="text-center" style="font-size:14px">Numero Documento</th>
-                                            <th class="text-center" style="font-size:14px">Nombres</th>
-                                            <th class="text-center" style="font-size:14px">Apellidos</th>
-                                            <th class="text-center" style="font-size:14px">Sexo</th>
-                                            <th class="text-center" style="font-size:14px">Correo</th>
-                                            <th class="text-center" style="font-size:14px">Estado</th>
-                                            <th class="text-center" style="font-size:14px">Tipo</th>
-                                            <th></th>
-                                            <th></th>
-                                        </tr>
-
-                                    </thead>
-
-                                    <tbody id="1{{complejosDisciplina['idDisciplina']}}" class="buscar">
-
-                                        <tr>
-                                            <td id="1h{{horario['idHorario']}}" class="text-center">123</td>
-                                            <td id="2h{{horario['idHorario']}}" class="text-center">DNI</td>
-                                            <td id="3h{{horario['idHorario']}}" class="text-center">70002229</td>
-                                            <td id="4h{{horario['idHorario']}}" class="text-center">Bryam Angel</td>
-                                            <td id="5h{{horario['idHorario']}}" class="text-center">Soto Nahui</td>
-                                            <td id="6h{{horario['idHorario']}}" class="text-center">Masculino</td>
-                                            <td id="7h{{horario['idHorario']}}" class="text-center">bsoto.dev@gmail.com</td>
-                                            <td id="8h{{horario['idHorario']}}" class="text-center">
-                                                <p style="color:rgb(226, 185, 49)">Por revisar</p>
-                                            </td>
-                                            <td id="9h{{horario['idHorario']}}" class="text-center">Deportista</td>
-                                            <td><button title="Editar" type="button" class="btn btn-info btn-xs"
-                                                    data-toggle="modal" data-target="#modal-nuevo-integrante"><i class="material-icons">
-                                                        edit
-                                                    </i></button></td>
-                                            <td><button title="Ver" type="button" class="btn btn-secondary btn-xs"
-                                                    data-toggle="modal" data-target="#modal-nuevo-integrante"><i class="material-icons">
-                                                        visibility
-                                                    </i></button></td>
-                                        </tr>
-
-                                        <tr>
-                                            <td id="1h{{horario['idHorario']}}" class="text-center">123</td>
-                                            <td id="2h{{horario['idHorario']}}" class="text-center">DNI</td>
-                                            <td id="3h{{horario['idHorario']}}" class="text-center">70002229</td>
-                                            <td id="4h{{horario['idHorario']}}" class="text-center">Bryam Angel</td>
-                                            <td id="5h{{horario['idHorario']}}" class="text-center">Soto Nahui</td>
-                                            <td id="6h{{horario['idHorario']}}" class="text-center">Masculino</td>
-                                            <td id="7h{{horario['idHorario']}}" class="text-center">bsoto.dev@gmail.com</td>
-                                            <td id="8h{{horario['idHorario']}}" class="text-center">
-                                                <p style="color:rgb(226, 185, 49)">Por revisar</p>
-                                            </td>
-                                            <td id="9h{{horario['idHorario']}}" class="text-center">Deportista</td>
-                                            <td><button title="Editar" type="button" class="btn btn-info btn-xs"
-                                                    data-toggle="modal" data-target="#modal-nuevo-integrante"><i class="material-icons">
-                                                        edit
-                                                    </i></button></td>
-                                            <td><button title="Ver" type="button" class="btn btn-secondary btn-xs"
-                                                    data-toggle="modal" data-target="#modal-nuevo-integrante"><i class="material-icons">
-                                                        visibility
-                                                    </i></button></td>
-                                        </tr>
-
-                                        <tr>
-                                            <td id="1h{{horario['idHorario']}}" class="text-center">123</td>
-                                            <td id="2h{{horario['idHorario']}}" class="text-center">DNI</td>
-                                            <td id="3h{{horario['idHorario']}}" class="text-center">70002229</td>
-                                            <td id="4h{{horario['idHorario']}}" class="text-center">Bryam Angel</td>
-                                            <td id="5h{{horario['idHorario']}}" class="text-center">Soto Nahui</td>
-                                            <td id="6h{{horario['idHorario']}}" class="text-center">Masculino</td>
-                                            <td id="7h{{horario['idHorario']}}" class="text-center">bsoto.dev@gmail.com</td>
-                                            <td id="8h{{horario['idHorario']}}" class="text-center">
-                                                <p style="color:rgb(226, 185, 49)">Por revisar</p>
-                                            </td>
-                                            <td id="9h{{horario['idHorario']}}" class="text-center">Deportista</td>
-                                            <td><button title="Editar" type="button" class="btn btn-info btn-xs"
-                                                    data-toggle="modal" data-target="#modal-nuevo-integrante"><i class="material-icons">
-                                                        edit
-                                                    </i></button></td>
-                                            <td><button title="Ver" type="button" class="btn btn-secondary btn-xs"
-                                                    data-toggle="modal" data-target="#modal-nuevo-integrante"><i class="material-icons">
-                                                        visibility
-                                                    </i></button></td>
-                                        </tr>
-
-                                        <tr>
-                                            <td id="1h{{horario['idHorario']}}" class="text-center">123</td>
-                                            <td id="2h{{horario['idHorario']}}" class="text-center">DNI</td>
-                                            <td id="3h{{horario['idHorario']}}" class="text-center">70002229</td>
-                                            <td id="4h{{horario['idHorario']}}" class="text-center">Bryam Angel</td>
-                                            <td id="5h{{horario['idHorario']}}" class="text-center">Soto Nahui</td>
-                                            <td id="6h{{horario['idHorario']}}" class="text-center">Masculino</td>
-                                            <td id="7h{{horario['idHorario']}}" class="text-center">bsoto.dev@gmail.com</td>
-                                            <td id="8h{{horario['idHorario']}}" class="text-center">
-                                                <p style="color:rgb(226, 185, 49)">Por revisar</p>
-                                            </td>
-                                            <td id="9h{{horario['idHorario']}}" class="text-center">Deportista</td>
-                                            <td><button title="Editar" type="button" class="btn btn-info btn-xs"
-                                                    data-toggle="modal" data-target="#modal-nuevo-integrante"><i class="material-icons">
-                                                        edit
-                                                    </i></button></td>
-                                            <td><button title="Ver" type="button" class="btn btn-secondary btn-xs"
-                                                    data-toggle="modal" data-target="#modal-nuevo-integrante"><i class="material-icons">
-                                                        visibility
-                                                    </i></button></td>
-                                        </tr>
-
-                                        <tr>
-                                            <td id="1h{{horario['idHorario']}}" class="text-center">123</td>
-                                            <td id="2h{{horario['idHorario']}}" class="text-center">DNI</td>
-                                            <td id="3h{{horario['idHorario']}}" class="text-center">70002229</td>
-                                            <td id="4h{{horario['idHorario']}}" class="text-center">Bryam Angel</td>
-                                            <td id="5h{{horario['idHorario']}}" class="text-center">Soto Nahui</td>
-                                            <td id="6h{{horario['idHorario']}}" class="text-center">Masculino</td>
-                                            <td id="7h{{horario['idHorario']}}" class="text-center">bsoto.dev@gmail.com</td>
-                                            <td id="8h{{horario['idHorario']}}" class="text-center">
-                                                <p style="color:rgb(226, 185, 49)">Por revisar</p>
-                                            </td>
-                                            <td id="9h{{horario['idHorario']}}" class="text-center">Deportista</td>
-                                            <td><button title="Editar" type="button" class="btn btn-info btn-xs"
-                                                    data-toggle="modal" data-target="#modal-nuevo-integrante"><i class="material-icons">
-                                                        edit
-                                                    </i></button></td>
-                                            <td><button title="Ver" type="button" class="btn btn-secondary btn-xs"
-                                                    data-toggle="modal" data-target="#modal-nuevo-integrante"><i class="material-icons">
-                                                        visibility
-                                                    </i></button></td>
-                                        </tr>
-
-                                    </tbody>
-
-                                </table>
-
-                            </div>
-
-                            <br>
-                            <div class="dropdown-divider"></div>
-                            <br>
-                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-right">
-                                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal-nuevo-integrante">Nuevo
-                                    integrante</button>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="card-header" id="heading3">
-                        <h5 class="mb-0">
-                            <button class="btn btn-lg btn-block btn-light" data-toggle="collapse" data-target="#collapse3"
-                                aria-expanded="false" aria-controls="collapseTwo">
-                                Rugby
-                            </button>
-                        </h5>
-                    </div>
-                    <div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#accordion">
-                        <div class="card-body">
-
-                            <div class="panel panel-default" style="overflow-x:auto; overflow-y:scroll; height:50vh; ">
-
-                                <table class="table" style="width: 100%;">
-                                    <thead class="container-header" class="text-center">
-                                        <tr>
-                                            <th class="text-center" style="font-size:14px">Código</th>
-                                            <th class="text-center" style="font-size:14px">Tipo Documento</th>
-                                            <th class="text-center" style="font-size:14px">Numero Documento</th>
-                                            <th class="text-center" style="font-size:14px">Nombres</th>
-                                            <th class="text-center" style="font-size:14px">Apellidos</th>
-                                            <th class="text-center" style="font-size:14px">Sexo</th>
-                                            <th class="text-center" style="font-size:14px">Correo</th>
-                                            <th class="text-center" style="font-size:14px">Estado</th>
-                                            <th class="text-center" style="font-size:14px">Tipo</th>
-                                            <th></th>
-                                            <th></th>
-                                        </tr>
-
-                                    </thead>
-
-                                    <tbody id="1{{complejosDisciplina['idDisciplina']}}" class="buscar">
-
-                                        <tr>
-                                            <td id="1h{{horario['idHorario']}}" class="text-center">123</td>
-                                            <td id="2h{{horario['idHorario']}}" class="text-center">DNI</td>
-                                            <td id="3h{{horario['idHorario']}}" class="text-center">70002229</td>
-                                            <td id="4h{{horario['idHorario']}}" class="text-center">Bryam Angel</td>
-                                            <td id="5h{{horario['idHorario']}}" class="text-center">Soto Nahui</td>
-                                            <td id="6h{{horario['idHorario']}}" class="text-center">Masculino</td>
-                                            <td id="7h{{horario['idHorario']}}" class="text-center">bsoto.dev@gmail.com</td>
-                                            <td id="8h{{horario['idHorario']}}" class="text-center">
-                                                <p style="color:rgb(226, 185, 49)">Por revisar</p>
-                                            </td>
-                                            <td id="9h{{horario['idHorario']}}" class="text-center">Deportista</td>
-                                            <td><button title="Editar" type="button" class="btn btn-info btn-xs"
-                                                    data-toggle="modal" data-target="#modal-nuevo-integrante"><i class="material-icons">
-                                                        edit
-                                                    </i></button></td>
-                                            <td><button title="Ver" type="button" class="btn btn-secondary btn-xs"
-                                                    data-toggle="modal" data-target="#modal-nuevo-integrante"><i class="material-icons">
-                                                        visibility
-                                                    </i></button></td>
-                                        </tr>
-
-                                        <tr>
-                                            <td id="1h{{horario['idHorario']}}" class="text-center">123</td>
-                                            <td id="2h{{horario['idHorario']}}" class="text-center">DNI</td>
-                                            <td id="3h{{horario['idHorario']}}" class="text-center">70002229</td>
-                                            <td id="4h{{horario['idHorario']}}" class="text-center">Bryam Angel</td>
-                                            <td id="5h{{horario['idHorario']}}" class="text-center">Soto Nahui</td>
-                                            <td id="6h{{horario['idHorario']}}" class="text-center">Masculino</td>
-                                            <td id="7h{{horario['idHorario']}}" class="text-center">bsoto.dev@gmail.com</td>
-                                            <td id="8h{{horario['idHorario']}}" class="text-center">
-                                                <p style="color:rgb(226, 185, 49)">Por revisar</p>
-                                            </td>
-                                            <td id="9h{{horario['idHorario']}}" class="text-center">Deportista</td>
-                                            <td><button title="Editar" type="button" class="btn btn-info btn-xs"
-                                                    data-toggle="modal" data-target="#modal-nuevo-integrante"><i class="material-icons">
-                                                        edit
-                                                    </i></button></td>
-                                            <td><button title="Ver" type="button" class="btn btn-secondary btn-xs"
-                                                    data-toggle="modal" data-target="#modal-nuevo-integrante"><i class="material-icons">
-                                                        visibility
-                                                    </i></button></td>
-                                        </tr>
-
-                                        <tr>
-                                            <td id="1h{{horario['idHorario']}}" class="text-center">123</td>
-                                            <td id="2h{{horario['idHorario']}}" class="text-center">DNI</td>
-                                            <td id="3h{{horario['idHorario']}}" class="text-center">70002229</td>
-                                            <td id="4h{{horario['idHorario']}}" class="text-center">Bryam Angel</td>
-                                            <td id="5h{{horario['idHorario']}}" class="text-center">Soto Nahui</td>
-                                            <td id="6h{{horario['idHorario']}}" class="text-center">Masculino</td>
-                                            <td id="7h{{horario['idHorario']}}" class="text-center">bsoto.dev@gmail.com</td>
-                                            <td id="8h{{horario['idHorario']}}" class="text-center">
-                                                <p style="color:rgb(226, 185, 49)">Por revisar</p>
-                                            </td>
-                                            <td id="9h{{horario['idHorario']}}" class="text-center">Deportista</td>
-                                            <td><button title="Editar" type="button" class="btn btn-info btn-xs"
-                                                    data-toggle="modal" data-target="#modal-nuevo-integrante"><i class="material-icons">
-                                                        edit
-                                                    </i></button></td>
-                                            <td><button title="Ver" type="button" class="btn btn-secondary btn-xs"
-                                                    data-toggle="modal" data-target="#modal-nuevo-integrante"><i class="material-icons">
-                                                        visibility
-                                                    </i></button></td>
-                                        </tr>
-
-                                        <tr>
-                                            <td id="1h{{horario['idHorario']}}" class="text-center">123</td>
-                                            <td id="2h{{horario['idHorario']}}" class="text-center">DNI</td>
-                                            <td id="3h{{horario['idHorario']}}" class="text-center">70002229</td>
-                                            <td id="4h{{horario['idHorario']}}" class="text-center">Bryam Angel</td>
-                                            <td id="5h{{horario['idHorario']}}" class="text-center">Soto Nahui</td>
-                                            <td id="6h{{horario['idHorario']}}" class="text-center">Masculino</td>
-                                            <td id="7h{{horario['idHorario']}}" class="text-center">bsoto.dev@gmail.com</td>
-                                            <td id="8h{{horario['idHorario']}}" class="text-center">
-                                                <p style="color:rgb(226, 185, 49)">Por revisar</p>
-                                            </td>
-                                            <td id="9h{{horario['idHorario']}}" class="text-center">Deportista</td>
-                                            <td><button title="Editar" type="button" class="btn btn-info btn-xs"
-                                                    data-toggle="modal" data-target="#modal-nuevo-integrante"><i class="material-icons">
-                                                        edit
-                                                    </i></button></td>
-                                            <td><button title="Ver" type="button" class="btn btn-secondary btn-xs"
-                                                    data-toggle="modal" data-target="#modal-nuevo-integrante"><i class="material-icons">
-                                                        visibility
-                                                    </i></button></td>
-                                        </tr>
-
-                                        <tr>
-                                            <td id="1h{{horario['idHorario']}}" class="text-center">123</td>
-                                            <td id="2h{{horario['idHorario']}}" class="text-center">DNI</td>
-                                            <td id="3h{{horario['idHorario']}}" class="text-center">70002229</td>
-                                            <td id="4h{{horario['idHorario']}}" class="text-center">Bryam Angel</td>
-                                            <td id="5h{{horario['idHorario']}}" class="text-center">Soto Nahui</td>
-                                            <td id="6h{{horario['idHorario']}}" class="text-center">Masculino</td>
-                                            <td id="7h{{horario['idHorario']}}" class="text-center">bsoto.dev@gmail.com</td>
-                                            <td id="8h{{horario['idHorario']}}" class="text-center">
-                                                <p style="color:rgb(226, 185, 49)">Por revisar</p>
-                                            </td>
-                                            <td id="9h{{horario['idHorario']}}" class="text-center">Deportista</td>
-                                            <td><button title="Editar" type="button" class="btn btn-info btn-xs"
-                                                    data-toggle="modal" data-target="#modal-nuevo-integrante"><i class="material-icons">
-                                                        edit
-                                                    </i></button></td>
-                                            <td><button title="Ver" type="button" class="btn btn-secondary btn-xs"
-                                                    data-toggle="modal" data-target="#modal-nuevo-integrante"><i class="material-icons">
-                                                        visibility
-                                                    </i></button></td>
-                                        </tr>
-
-                                    </tbody>
-
-                                </table>
-
-                            </div>
-
-                            <br>
-                            <div class="dropdown-divider"></div>
-                            <br>
-                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-right">
-                                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal-nuevo-integrante">Nuevo
-                                    integrante</button>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="card-header" id="heading4">
-                        <h5 class="mb-0">
-                            <button class="btn btn-lg btn-block btn-light" data-toggle="collapse" data-target="#collapse4"
-                                aria-expanded="false" aria-controls="collapse4">
-                                Voley
-                            </button>
-                        </h5>
-                    </div>
-                    <div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#accordion">
-                        <div class="card-body">
-
-                            <div class="panel panel-default" style="overflow-x:auto; overflow-y:scroll; height:50vh; ">
-
-                                <table class="table table-hover table-striped" style="width: 100%;">
-                                    <thead class="container-header" class="text-center">
-                                        <tr>
-                                            <th class="text-center" style="font-size:14px">Código</th>
-                                            <th class="text-center" style="font-size:14px">Tipo Documento</th>
-                                            <th class="text-center" style="font-size:14px">Numero Documento</th>
-                                            <th class="text-center" style="font-size:14px">Nombres</th>
-                                            <th class="text-center" style="font-size:14px">Apellidos</th>
-                                            <th class="text-center" style="font-size:14px">Sexo</th>
-                                            <th class="text-center" style="font-size:14px">Correo</th>
-                                            <th class="text-center" style="font-size:14px">Estado</th>
-                                            <th class="text-center" style="font-size:14px">Tipo</th>
-                                            <th></th>
-                                            <th></th>
-                                        </tr>
-
-                                    </thead>
-
-                                    <tbody id="1{{complejosDisciplina['idDisciplina']}}" class="buscar">
-
-                                        <tr>
-                                            <td id="1h{{horario['idHorario']}}" class="text-center">123</td>
-                                            <td id="2h{{horario['idHorario']}}" class="text-center">DNI</td>
-                                            <td id="3h{{horario['idHorario']}}" class="text-center">70002229</td>
-                                            <td id="4h{{horario['idHorario']}}" class="text-center">Bryam Angel</td>
-                                            <td id="5h{{horario['idHorario']}}" class="text-center">Soto Nahui</td>
-                                            <td id="6h{{horario['idHorario']}}" class="text-center">Masculino</td>
-                                            <td id="7h{{horario['idHorario']}}" class="text-center">bsoto.dev@gmail.com</td>
-                                            <td id="8h{{horario['idHorario']}}" class="text-center">
-                                                <p style="color:rgb(226, 185, 49)">Por revisar</p>
-                                            </td>
-                                            <td id="9h{{horario['idHorario']}}" class="text-center">Deportista</td>
-                                            <td><button title="Editar" type="button" class="btn btn-info btn-xs"
-                                                    data-toggle="modal" data-target="#modal-nuevo-integrante"><i class="material-icons">
-                                                        edit
-                                                    </i></button></td>
-                                            <td><button title="Ver" type="button" class="btn btn-secondary btn-xs"
-                                                    data-toggle="modal" data-target="#modal-nuevo-integrante"><i class="material-icons">
-                                                        visibility
-                                                    </i></button></td>
-                                        </tr>
-
-                                        <tr>
-                                            <td id="1h{{horario['idHorario']}}" class="text-center">123</td>
-                                            <td id="2h{{horario['idHorario']}}" class="text-center">DNI</td>
-                                            <td id="3h{{horario['idHorario']}}" class="text-center">70002229</td>
-                                            <td id="4h{{horario['idHorario']}}" class="text-center">Bryam Angel</td>
-                                            <td id="5h{{horario['idHorario']}}" class="text-center">Soto Nahui</td>
-                                            <td id="6h{{horario['idHorario']}}" class="text-center">Masculino</td>
-                                            <td id="7h{{horario['idHorario']}}" class="text-center">bsoto.dev@gmail.com</td>
-                                            <td id="8h{{horario['idHorario']}}" class="text-center">
-                                                <p style="color:rgb(226, 185, 49)">Por revisar</p>
-                                            </td>
-                                            <td id="9h{{horario['idHorario']}}" class="text-center">Deportista</td>
-                                            <td><button title="Editar" type="button" class="btn btn-info btn-xs"
-                                                    data-toggle="modal" data-target="#modal-nuevo-integrante"><i class="material-icons">
-                                                        edit
-                                                    </i></button></td>
-                                            <td><button title="Ver" type="button" class="btn btn-secondary btn-xs"
-                                                    data-toggle="modal" data-target="#modal-nuevo-integrante"><i class="material-icons">
-                                                        visibility
-                                                    </i></button></td>
-                                        </tr>
-
-                                        <tr>
-                                            <td id="1h{{horario['idHorario']}}" class="text-center">123</td>
-                                            <td id="2h{{horario['idHorario']}}" class="text-center">DNI</td>
-                                            <td id="3h{{horario['idHorario']}}" class="text-center">70002229</td>
-                                            <td id="4h{{horario['idHorario']}}" class="text-center">Bryam Angel</td>
-                                            <td id="5h{{horario['idHorario']}}" class="text-center">Soto Nahui</td>
-                                            <td id="6h{{horario['idHorario']}}" class="text-center">Masculino</td>
-                                            <td id="7h{{horario['idHorario']}}" class="text-center">bsoto.dev@gmail.com</td>
-                                            <td id="8h{{horario['idHorario']}}" class="text-center">
-                                                <p style="color:rgb(226, 185, 49)">Por revisar</p>
-                                            </td>
-                                            <td id="9h{{horario['idHorario']}}" class="text-center">Deportista</td>
-                                            <td><button title="Editar" type="button" class="btn btn-info btn-xs"
-                                                    data-toggle="modal" data-target="#modal-nuevo-integrante"><i class="material-icons">
-                                                        edit
-                                                    </i></button></td>
-                                            <td><button title="Ver" type="button" class="btn btn-secondary btn-xs"
-                                                    data-toggle="modal" data-target="#modal-nuevo-integrante"><i class="material-icons">
-                                                        visibility
-                                                    </i></button></td>
-                                        </tr>
-
-                                        <tr>
-                                            <td id="1h{{horario['idHorario']}}" class="text-center">123</td>
-                                            <td id="2h{{horario['idHorario']}}" class="text-center">DNI</td>
-                                            <td id="3h{{horario['idHorario']}}" class="text-center">70002229</td>
-                                            <td id="4h{{horario['idHorario']}}" class="text-center">Bryam Angel</td>
-                                            <td id="5h{{horario['idHorario']}}" class="text-center">Soto Nahui</td>
-                                            <td id="6h{{horario['idHorario']}}" class="text-center">Masculino</td>
-                                            <td id="7h{{horario['idHorario']}}" class="text-center">bsoto.dev@gmail.com</td>
-                                            <td id="8h{{horario['idHorario']}}" class="text-center">
-                                                <p style="color:rgb(226, 185, 49)">Por revisar</p>
-                                            </td>
-                                            <td id="9h{{horario['idHorario']}}" class="text-center">Deportista</td>
-                                            <td><button title="Editar" type="button" class="btn btn-info btn-xs"
-                                                    data-toggle="modal" data-target="#modal-nuevo-integrante"><i class="material-icons">
-                                                        edit
-                                                    </i></button></td>
-                                            <td><button title="Ver" type="button" class="btn btn-secondary btn-xs"
-                                                    data-toggle="modal" data-target="#modal-nuevo-integrante"><i class="material-icons">
-                                                        visibility
-                                                    </i></button></td>
-                                        </tr>
-
-                                        <tr>
-                                            <td id="1h{{horario['idHorario']}}" class="text-center">123</td>
-                                            <td id="2h{{horario['idHorario']}}" class="text-center">DNI</td>
-                                            <td id="3h{{horario['idHorario']}}" class="text-center">70002229</td>
-                                            <td id="4h{{horario['idHorario']}}" class="text-center">Bryam Angel</td>
-                                            <td id="5h{{horario['idHorario']}}" class="text-center">Soto Nahui</td>
-                                            <td id="6h{{horario['idHorario']}}" class="text-center">Masculino</td>
-                                            <td id="7h{{horario['idHorario']}}" class="text-center">bsoto.dev@gmail.com</td>
-                                            <td id="8h{{horario['idHorario']}}" class="text-center">
-                                                <p style="color:rgb(226, 185, 49)">Por revisar</p>
-                                            </td>
-                                            <td id="9h{{horario['idHorario']}}" class="text-center">Deportista</td>
-                                            <td><button title="Editar" type="button" class="btn btn-info btn-xs"
-                                                    data-toggle="modal" data-target="#modal-nuevo-integrante"><i class="material-icons">
-                                                        edit
-                                                    </i></button></td>
-                                            <td><button title="Ver" type="button" class="btn btn-secondary btn-xs"
-                                                    data-toggle="modal" data-target="#modal-nuevo-integrante"><i class="material-icons">
-                                                        visibility
-                                                    </i></button></td>
-                                        </tr>
-
-                                    </tbody>
-
-                                </table>
-
-                            </div>
-
-                            <br>
-                            <div class="dropdown-divider"></div>
-                            <br>
-                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-right">
-                                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal-nuevo-integrante">Nuevo
-                                    integrante</button>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="card-header" id="heading5">
-                        <h5 class="mb-0">
-                            <button class="btn btn-lg btn-block btn-light" data-toggle="collapse" data-target="#collapse5"
-                                aria-expanded="false" aria-controls="collapse5">
-                                Basket
-                            </button>
-                        </h5>
-                    </div>
-                    <div id="collapse5" class="collapse" aria-labelledby="heading5" data-parent="#accordion">
-                        <div class="card-body">
-
-                            <div class="panel panel-default" style="overflow-x:auto; overflow-y:scroll; height:50vh; ">
-
-                                <table class="table" style="width: 100%;">
-                                    <thead class="container-header" class="text-center">
-                                        <tr>
-                                            <th class="text-center" style="font-size:14px">Código</th>
-                                            <th class="text-center" style="font-size:14px">Tipo Documento</th>
-                                            <th class="text-center" style="font-size:14px">Numero Documento</th>
-                                            <th class="text-center" style="font-size:14px">Nombres</th>
-                                            <th class="text-center" style="font-size:14px">Apellidos</th>
-                                            <th class="text-center" style="font-size:14px">Sexo</th>
-                                            <th class="text-center" style="font-size:14px">Correo</th>
-                                            <th class="text-center" style="font-size:14px">Estado</th>
-                                            <th class="text-center" style="font-size:14px">Tipo</th>
-                                            <th></th>
-                                            <th></th>
-                                        </tr>
-
-                                    </thead>
-
-                                    <tbody id="1{{complejosDisciplina['idDisciplina']}}" class="buscar">
-
-                                        <tr>
-                                            <td id="1h{{horario['idHorario']}}" class="text-center">123</td>
-                                            <td id="2h{{horario['idHorario']}}" class="text-center">DNI</td>
-                                            <td id="3h{{horario['idHorario']}}" class="text-center">70002229</td>
-                                            <td id="4h{{horario['idHorario']}}" class="text-center">Bryam Angel</td>
-                                            <td id="5h{{horario['idHorario']}}" class="text-center">Soto Nahui</td>
-                                            <td id="6h{{horario['idHorario']}}" class="text-center">Masculino</td>
-                                            <td id="7h{{horario['idHorario']}}" class="text-center">bsoto.dev@gmail.com</td>
-                                            <td id="8h{{horario['idHorario']}}" class="text-center">
-                                                <p style="color:rgb(226, 185, 49)">Por revisar</p>
-                                            </td>
-                                            <td id="9h{{horario['idHorario']}}" class="text-center">Deportista</td>
-                                            <td><button title="Editar" type="button" class="btn btn-info btn-xs"
-                                                    data-toggle="modal" data-target="#modal-nuevo-integrante"><i class="material-icons">
-                                                        edit
-                                                    </i></button></td>
-                                            <td><button title="Ver" type="button" class="btn btn-secondary btn-xs"
-                                                    data-toggle="modal" data-target="#modal-nuevo-integrante"><i class="material-icons">
-                                                        visibility
-                                                    </i></button></td>
-                                        </tr>
-
-                                        <tr>
-                                            <td id="1h{{horario['idHorario']}}" class="text-center">123</td>
-                                            <td id="2h{{horario['idHorario']}}" class="text-center">DNI</td>
-                                            <td id="3h{{horario['idHorario']}}" class="text-center">70002229</td>
-                                            <td id="4h{{horario['idHorario']}}" class="text-center">Bryam Angel</td>
-                                            <td id="5h{{horario['idHorario']}}" class="text-center">Soto Nahui</td>
-                                            <td id="6h{{horario['idHorario']}}" class="text-center">Masculino</td>
-                                            <td id="7h{{horario['idHorario']}}" class="text-center">bsoto.dev@gmail.com</td>
-                                            <td id="8h{{horario['idHorario']}}" class="text-center">
-                                                <p style="color:rgb(226, 185, 49)">Por revisar</p>
-                                            </td>
-                                            <td id="9h{{horario['idHorario']}}" class="text-center">Deportista</td>
-                                            <td><button title="Editar" type="button" class="btn btn-info btn-xs"
-                                                    data-toggle="modal" data-target="#modal-nuevo-integrante"><i class="material-icons">
-                                                        edit
-                                                    </i></button></td>
-                                            <td><button title="Ver" type="button" class="btn btn-secondary btn-xs"
-                                                    data-toggle="modal" data-target="#modal-nuevo-integrante"><i class="material-icons">
-                                                        visibility
-                                                    </i></button></td>
-                                        </tr>
-
-                                        <tr>
-                                            <td id="1h{{horario['idHorario']}}" class="text-center">123</td>
-                                            <td id="2h{{horario['idHorario']}}" class="text-center">DNI</td>
-                                            <td id="3h{{horario['idHorario']}}" class="text-center">70002229</td>
-                                            <td id="4h{{horario['idHorario']}}" class="text-center">Bryam Angel</td>
-                                            <td id="5h{{horario['idHorario']}}" class="text-center">Soto Nahui</td>
-                                            <td id="6h{{horario['idHorario']}}" class="text-center">Masculino</td>
-                                            <td id="7h{{horario['idHorario']}}" class="text-center">bsoto.dev@gmail.com</td>
-                                            <td id="8h{{horario['idHorario']}}" class="text-center">
-                                                <p style="color:rgb(226, 185, 49)">Por revisar</p>
-                                            </td>
-                                            <td id="9h{{horario['idHorario']}}" class="text-center">Deportista</td>
-                                            <td><button title="Editar" type="button" class="btn btn-info btn-xs"
-                                                    data-toggle="modal" data-target="#modal-nuevo-integrante"><i class="material-icons">
-                                                        edit
-                                                    </i></button></td>
-                                            <td><button title="Ver" type="button" class="btn btn-secondary btn-xs"
-                                                    data-toggle="modal" data-target="#modal-nuevo-integrante"><i class="material-icons">
-                                                        visibility
-                                                    </i></button></td>
-                                        </tr>
-
-                                        <tr>
-                                            <td id="1h{{horario['idHorario']}}" class="text-center">123</td>
-                                            <td id="2h{{horario['idHorario']}}" class="text-center">DNI</td>
-                                            <td id="3h{{horario['idHorario']}}" class="text-center">70002229</td>
-                                            <td id="4h{{horario['idHorario']}}" class="text-center">Bryam Angel</td>
-                                            <td id="5h{{horario['idHorario']}}" class="text-center">Soto Nahui</td>
-                                            <td id="6h{{horario['idHorario']}}" class="text-center">Masculino</td>
-                                            <td id="7h{{horario['idHorario']}}" class="text-center">bsoto.dev@gmail.com</td>
-                                            <td id="8h{{horario['idHorario']}}" class="text-center">
-                                                <p style="color:rgb(226, 185, 49)">Por revisar</p>
-                                            </td>
-                                            <td id="9h{{horario['idHorario']}}" class="text-center">Deportista</td>
-                                            <td><button title="Editar" type="button" class="btn btn-info btn-xs"
-                                                    data-toggle="modal" data-target="#modal-nuevo-integrante"><i class="material-icons">
-                                                        edit
-                                                    </i></button></td>
-                                            <td><button title="Ver" type="button" class="btn btn-secondary btn-xs"
-                                                    data-toggle="modal" data-target="#modal-nuevo-integrante"><i class="material-icons">
-                                                        visibility
-                                                    </i></button></td>
-                                        </tr>
-
-                                        <tr>
-                                            <td id="1h{{horario['idHorario']}}" class="text-center">123</td>
-                                            <td id="2h{{horario['idHorario']}}" class="text-center">DNI</td>
-                                            <td id="3h{{horario['idHorario']}}" class="text-center">70002229</td>
-                                            <td id="4h{{horario['idHorario']}}" class="text-center">Bryam Angel</td>
-                                            <td id="5h{{horario['idHorario']}}" class="text-center">Soto Nahui</td>
-                                            <td id="6h{{horario['idHorario']}}" class="text-center">Masculino</td>
-                                            <td id="7h{{horario['idHorario']}}" class="text-center">bsoto.dev@gmail.com</td>
-                                            <td id="8h{{horario['idHorario']}}" class="text-center">
-                                                <p style="color:rgb(226, 185, 49)">Por revisar</p>
-                                            </td>
-                                            <td id="9h{{horario['idHorario']}}" class="text-center">Deportista</td>
-                                            <td><button title="Editar" type="button" class="btn btn-info btn-xs"
-                                                    data-toggle="modal" data-target="#modal-nuevo-integrante"><i class="material-icons">
-                                                        edit
-                                                    </i></button></td>
-                                            <td><button title="Ver" type="button" class="btn btn-secondary btn-xs"
-                                                    data-toggle="modal" data-target="#modal-nuevo-integrante"><i class="material-icons">
-                                                        visibility
-                                                    </i></button></td>
-                                        </tr>
-
-                                    </tbody>
-
-                                </table>
-
-                            </div>
-
-                            <br>
-                            <div class="dropdown-divider"></div>
-                            <br>
-                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-right">
-                                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal-nuevo-integrante">Nuevo
-                                    integrante</button>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="card-header" id="heading6">
-                        <h5 class="mb-0">
-                            <button class="btn btn-lg btn-block btn-light" data-toggle="collapse" data-target="#collapse6"
-                                aria-expanded="false" aria-controls="collapse6">
-                                Gimnasia
-                            </button>
-                        </h5>
-                    </div>
-                    <div id="collapse6" class="collapse" aria-labelledby="heading6" data-parent="#accordion">
-                        <div class="card-body">
-
-                            <div class="panel panel-default" style="overflow-x:auto; overflow-y:scroll; height:50vh; ">
-
-                                <table class="table table-hover table-striped" style="width: 100%;">
-                                    <thead class="container-header" class="text-center">
-                                        <tr>
-                                            <th class="text-center" style="font-size:14px">Código</th>
-                                            <th class="text-center" style="font-size:14px">Tipo Documento</th>
-                                            <th class="text-center" style="font-size:14px">Numero Documento</th>
-                                            <th class="text-center" style="font-size:14px">Nombres</th>
-                                            <th class="text-center" style="font-size:14px">Apellidos</th>
-                                            <th class="text-center" style="font-size:14px">Sexo</th>
-                                            <th class="text-center" style="font-size:14px">Correo</th>
-                                            <th class="text-center" style="font-size:14px">Estado</th>
-                                            <th class="text-center" style="font-size:14px">Tipo</th>
-                                            <th></th>
-                                            <th></th>
-                                        </tr>
-
-                                    </thead>
-
-                                    <tbody id="1{{complejosDisciplina['idDisciplina']}}" class="buscar">
-
-                                        <tr>
-                                            <td id="1h{{horario['idHorario']}}" class="text-center">123</td>
-                                            <td id="2h{{horario['idHorario']}}" class="text-center">DNI</td>
-                                            <td id="3h{{horario['idHorario']}}" class="text-center">70002229</td>
-                                            <td id="4h{{horario['idHorario']}}" class="text-center">Bryam Angel</td>
-                                            <td id="5h{{horario['idHorario']}}" class="text-center">Soto Nahui</td>
-                                            <td id="6h{{horario['idHorario']}}" class="text-center">Masculino</td>
-                                            <td id="7h{{horario['idHorario']}}" class="text-center">bsoto.dev@gmail.com</td>
-                                            <td id="8h{{horario['idHorario']}}" class="text-center">
-                                                <p style="color:rgb(226, 185, 49)">Por revisar</p>
-                                            </td>
-                                            <td id="9h{{horario['idHorario']}}" class="text-center">Deportista</td>
-                                            <td><button title="Editar" type="button" class="btn btn-info btn-xs"
-                                                    data-toggle="modal" data-target="#modal-nuevo-integrante"><i class="material-icons">
-                                                        edit
-                                                    </i></button></td>
-                                            <td><button title="Ver" type="button" class="btn btn-secondary btn-xs"
-                                                    data-toggle="modal" data-target="#modal-nuevo-integrante"><i class="material-icons">
-                                                        visibility
-                                                    </i></button></td>
-                                        </tr>
-
-                                        <tr>
-                                            <td id="1h{{horario['idHorario']}}" class="text-center">123</td>
-                                            <td id="2h{{horario['idHorario']}}" class="text-center">DNI</td>
-                                            <td id="3h{{horario['idHorario']}}" class="text-center">70002229</td>
-                                            <td id="4h{{horario['idHorario']}}" class="text-center">Bryam Angel</td>
-                                            <td id="5h{{horario['idHorario']}}" class="text-center">Soto Nahui</td>
-                                            <td id="6h{{horario['idHorario']}}" class="text-center">Masculino</td>
-                                            <td id="7h{{horario['idHorario']}}" class="text-center">bsoto.dev@gmail.com</td>
-                                            <td id="8h{{horario['idHorario']}}" class="text-center">
-                                                <p style="color:rgb(226, 185, 49)">Por revisar</p>
-                                            </td>
-                                            <td id="9h{{horario['idHorario']}}" class="text-center">Deportista</td>
-                                            <td><button title="Editar" type="button" class="btn btn-info btn-xs"
-                                                    data-toggle="modal" data-target="#modal-nuevo-integrante"><i class="material-icons">
-                                                        edit
-                                                    </i></button></td>
-                                            <td><button title="Ver" type="button" class="btn btn-secondary btn-xs"
-                                                    data-toggle="modal" data-target="#modal-nuevo-integrante"><i class="material-icons">
-                                                        visibility
-                                                    </i></button></td>
-                                        </tr>
-
-                                        <tr>
-                                            <td id="1h{{horario['idHorario']}}" class="text-center">123</td>
-                                            <td id="2h{{horario['idHorario']}}" class="text-center">DNI</td>
-                                            <td id="3h{{horario['idHorario']}}" class="text-center">70002229</td>
-                                            <td id="4h{{horario['idHorario']}}" class="text-center">Bryam Angel</td>
-                                            <td id="5h{{horario['idHorario']}}" class="text-center">Soto Nahui</td>
-                                            <td id="6h{{horario['idHorario']}}" class="text-center">Masculino</td>
-                                            <td id="7h{{horario['idHorario']}}" class="text-center">bsoto.dev@gmail.com</td>
-                                            <td id="8h{{horario['idHorario']}}" class="text-center">
-                                                <p style="color:rgb(226, 185, 49)">Por revisar</p>
-                                            </td>
-                                            <td id="9h{{horario['idHorario']}}" class="text-center">Deportista</td>
-                                            <td><button title="Editar" type="button" class="btn btn-info btn-xs"
-                                                    data-toggle="modal" data-target="#modal-nuevo-integrante"><i class="material-icons">
-                                                        edit
-                                                    </i></button></td>
-                                            <td><button title="Ver" type="button" class="btn btn-secondary btn-xs"
-                                                    data-toggle="modal" data-target="#modal-nuevo-integrante"><i class="material-icons">
-                                                        visibility
-                                                    </i></button></td>
-                                        </tr>
-
-                                        <tr>
-                                            <td id="1h{{horario['idHorario']}}" class="text-center">123</td>
-                                            <td id="2h{{horario['idHorario']}}" class="text-center">DNI</td>
-                                            <td id="3h{{horario['idHorario']}}" class="text-center">70002229</td>
-                                            <td id="4h{{horario['idHorario']}}" class="text-center">Bryam Angel</td>
-                                            <td id="5h{{horario['idHorario']}}" class="text-center">Soto Nahui</td>
-                                            <td id="6h{{horario['idHorario']}}" class="text-center">Masculino</td>
-                                            <td id="7h{{horario['idHorario']}}" class="text-center">bsoto.dev@gmail.com</td>
-                                            <td id="8h{{horario['idHorario']}}" class="text-center">
-                                                <p style="color:rgb(226, 185, 49)">Por revisar</p>
-                                            </td>
-                                            <td id="9h{{horario['idHorario']}}" class="text-center">Deportista</td>
-                                            <td><button title="Editar" type="button" class="btn btn-info btn-xs"
-                                                    data-toggle="modal" data-target="#modal-nuevo-integrante"><i class="material-icons">
-                                                        edit
-                                                    </i></button></td>
-                                            <td><button title="Ver" type="button" class="btn btn-secondary btn-xs"
-                                                    data-toggle="modal" data-target="#modal-nuevo-integrante"><i class="material-icons">
-                                                        visibility
-                                                    </i></button></td>
-                                        </tr>
-
-                                        <tr>
-                                            <td id="1h{{horario['idHorario']}}" class="text-center">123</td>
-                                            <td id="2h{{horario['idHorario']}}" class="text-center">DNI</td>
-                                            <td id="3h{{horario['idHorario']}}" class="text-center">70002229</td>
-                                            <td id="4h{{horario['idHorario']}}" class="text-center">Bryam Angel</td>
-                                            <td id="5h{{horario['idHorario']}}" class="text-center">Soto Nahui</td>
-                                            <td id="6h{{horario['idHorario']}}" class="text-center">Masculino</td>
-                                            <td id="7h{{horario['idHorario']}}" class="text-center">bsoto.dev@gmail.com</td>
-                                            <td id="8h{{horario['idHorario']}}" class="text-center">
-                                                <p style="color:rgb(226, 185, 49)">Por revisar</p>
-                                            </td>
-                                            <td id="9h{{horario['idHorario']}}" class="text-center">Deportista</td>
-                                            <td><button title="Editar" type="button" class="btn btn-info btn-xs"
-                                                    data-toggle="modal" data-target="#modal-nuevo-integrante"><i class="material-icons">
-                                                        edit
-                                                    </i></button></td>
-                                            <td><button title="Ver" type="button" class="btn btn-secondary btn-xs"
-                                                    data-toggle="modal" data-target="#modal-nuevo-integrante"><i class="material-icons">
-                                                        visibility
-                                                    </i></button></td>
-                                        </tr>
-
-                                    </tbody>
-
-                                </table>
-
-                            </div>
-
-                            <br>
-                            <div class="dropdown-divider"></div>
-                            <br>
-                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-right">
-                                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal-nuevo-integrante">Nuevo
-                                    integrante</button>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-
 
 
             </div>
 
-            <br>
-            <br>
 
-            <div class="text-right">
-                <button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#modal-nueva-foto">Descargar
-                    credenciales</button>
-                <button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#modal-nueva-foto">Descargar
-                    listado</button>
-            </div>
-
-
-        </div>
-
-
-    </section>
-</div>
+        </section>
+    </div>
+    
     <footer>
         <img src="images/footer.png" class="img-fluid">
     </footer>
